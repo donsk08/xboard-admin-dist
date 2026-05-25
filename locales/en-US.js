@@ -1,47 +1,5 @@
 window.XBOARD_TRANSLATIONS = window.XBOARD_TRANSLATIONS || {};
 window.XBOARD_TRANSLATIONS['en-US'] = {
-  "theme": {
-    "title": "Theme Configuration",
-    "description": "Theme configuration, including theme colors, font sizes, etc. If you deploy V2board in a front-end and back-end separated way, theme configuration will not take effect.",
-    "upload": {
-      "button": "Upload Theme",
-      "title": "Upload Theme",
-      "description": "Please upload a valid theme package (.zip format). The theme package should contain a complete theme file structure.",
-      "dragText": "Drag and drop theme file here, or",
-      "clickText": "click to select",
-      "supportText": "Supports .zip format theme packages",
-      "uploading": "Uploading...",
-      "error": {
-        "format": "Only ZIP format theme files are supported"
-      }
-    },
-    "preview": {
-      "title": "Theme Preview",
-      "imageCount": "{{current}} / {{total}}"
-    },
-    "card": {
-      "version": "Version: {{version}}",
-      "currentTheme": "Current Theme",
-      "activateTheme": "Activate Theme",
-      "configureTheme": "Theme Settings",
-      "preview": "Preview",
-      "delete": {
-        "title": "Delete Theme",
-        "description": "Are you sure you want to delete this theme? This action cannot be undone.",
-        "button": "Delete",
-        "error": {
-          "active": "Cannot delete the currently active theme"
-        }
-      }
-    },
-    "config": {
-      "title": "Configure {{name}} Theme",
-      "description": "Modify theme styles, layouts, and other display options.",
-      "cancel": "Cancel",
-      "save": "Save",
-      "success": "Settings saved successfully"
-    }
-  },
   "machine": {
     "title": "Server Management",
     "description": "Review server health, load, and hosted nodes, then launch node actions from an operations view.",
@@ -194,178 +152,6 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
       "enabledDescription": "Whether the node is activated on the selected server"
     }
   },
-  "common": {
-    "loading": "Loading...",
-    "error": "Error",
-    "success": "Success",
-    "save": "Save",
-    "cancel": "Cancel",
-    "confirm": "Confirm",
-    "close": "Close",
-    "delete": {
-      "success": "Deleted successfully",
-      "failed": "Failed to delete"
-    },
-    "edit": "Edit",
-    "view": "View",
-    "toggleNavigation": "Toggle Navigation",
-    "toggleSidebar": "Toggle Sidebar",
-    "search": "Search...",
-    "theme": {
-      "light": "Light",
-      "dark": "Dark",
-      "system": "System"
-    },
-    "user": "User",
-    "defaultEmail": "user@example.com",
-    "settings": "Settings",
-    "logout": "Logout",
-    "copy": {
-      "success": "Copied successfully",
-      "failed": "Failed to copy",
-      "error": "Copy failed",
-      "errorLog": "Error copying to clipboard"
-    },
-    "submit": "Submit",
-    "saving": "Saving...",
-    "table": {
-      "noData": "No data available",
-      "pagination": {
-        "selected": "{{selected}} of {{total}} items selected",
-        "itemsPerPage": "Per page",
-        "page": "Page",
-        "pageOf": "of {{total}} pages",
-        "firstPage": "Go to first page",
-        "previousPage": "Previous page",
-        "nextPage": "Next page",
-        "lastPage": "Go to last page"
-      },
-      "viewOptions": {
-        "button": "Columns",
-        "label": "Toggle columns"
-      }
-    },
-    "update": {
-      "title": "System Update",
-      "newVersion": "New Version Available",
-      "currentVersion": "Current Version",
-      "latestVersion": "Latest Version",
-      "updateLater": "Update Later",
-      "updateNow": "Update Now",
-      "updating": "Updating...",
-      "updateSuccess": "Update successful, system will restart shortly",
-      "updateFailed": "Update failed, please try again later"
-    },
-    "time": {
-      "day": "day",
-      "hour": " hour(s)"
-    },
-    "reset": "Reset",
-    "export": "Export",
-    "currency": {
-      "yuan": "Yuan"
-    },
-    "http": {
-      "notLoggedIn": "Not logged in",
-      "unknownError": "Unknown error",
-      "loginExpired": "Login expired",
-      "noPermission": "No permission",
-      "notFound": "Resource or API not found",
-      "unknownException": "Unknown exception"
-    }
-  },
-  "plugin": {
-    "title": "Plugin Management",
-    "description": "Manage and configure system plugins",
-    "search": {
-      "placeholder": "Search plugin name or description..."
-    },
-    "type": {
-      "placeholder": "Select Plugin Type",
-      "all": "All Types"
-    },
-    "tabs": {
-      "all": "All Plugins",
-      "installed": "Installed",
-      "available": "Available"
-    },
-    "status": {
-      "enabled": "Enabled",
-      "disabled": "Disabled",
-      "not_installed": "Not Installed",
-      "protected": "Protected",
-      "filter_placeholder": "Install Status",
-      "all": "All Status",
-      "installed": "Installed",
-      "available": "Available"
-    },
-    "button": {
-      "install": "Install",
-      "upgrade": "Upgrade",
-      "config": "Configure",
-      "enable": "Enable",
-      "disable": "Disable",
-      "uninstall": "Uninstall",
-      "readme": "View Documentation",
-      "menuDemo": "Menu Demo"
-    },
-    "upload": {
-      "button": "Upload Plugin",
-      "title": "Upload Plugin",
-      "description": "Upload a plugin package (.zip)",
-      "dragText": "Drag and drop plugin package here, or",
-      "clickText": "browse",
-      "supportText": "Supports .zip files only",
-      "uploading": "Uploading...",
-      "error": {
-        "format": "Only .zip files are supported"
-      }
-    },
-    "delete": {
-      "title": "Delete Plugin",
-      "description": "Are you sure you want to delete this plugin? This action cannot be undone.",
-      "button": "Delete"
-    },
-    "uninstall": {
-      "title": "Uninstall Plugin",
-      "description": "Are you sure you want to uninstall this plugin? Plugin data will be cleared after uninstallation.",
-      "button": "Uninstall"
-    },
-    "upgrade": {
-      "title": "Upgrade Plugin",
-      "description": "Are you sure you want to upgrade this plugin? The plugin will be temporarily unavailable during the upgrade process.",
-      "button": "Upgrade"
-    },
-    "config": {
-      "title": "Configuration",
-      "description": "Modify plugin configuration",
-      "save": "Save",
-      "cancel": "Cancel"
-    },
-    "readme": {
-      "title": "Plugin Documentation"
-    },
-    "author": "Author",
-    "messages": {
-      "installSuccess": "Plugin installed successfully",
-      "installError": "Failed to install plugin",
-      "upgradeSuccess": "Plugin upgraded successfully",
-      "upgradeError": "Failed to upgrade plugin",
-      "uninstallSuccess": "Plugin uninstalled successfully",
-      "uninstallError": "Failed to uninstall plugin",
-      "enableSuccess": "Plugin enabled successfully",
-      "enableError": "Failed to enable plugin",
-      "disableSuccess": "Plugin disabled successfully",
-      "disableError": "Failed to disable plugin",
-      "configLoadError": "Failed to load plugin configuration",
-      "configSaveSuccess": "Configuration saved successfully",
-      "configSaveError": "Failed to save configuration",
-      "uploadSuccess": "Plugin uploaded successfully",
-      "uploadError": "Failed to upload plugin",
-      "deleteSuccess": "Plugin deleted successfully",
-      "deleteError": "Failed to delete plugin"
-    }
-  },
   "group": {
     "title": "Permission Groups",
     "description": "Manage all permission groups, including adding, deleting, and editing operations.",
@@ -405,28 +191,911 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
       }
     }
   },
-  "nav": {
+  "settings": {
+    "title": "System Settings",
+    "description": "Manage core system configurations, including site, security, subscription, invite commission, nodes, email, and notifications",
+    "server": {
+      "title": "Server Configuration",
+      "description": "Configure node communication and synchronization settings, including communication keys, polling intervals, load balancing and other advanced options.",
+      "server_token": {
+        "title": "Communication Token",
+        "placeholder": "Enter communication token",
+        "description": "Used for authentication between servers",
+        "generate_tooltip": "Click to generate random token"
+      },
+      "server_pull_interval": {
+        "title": "Node Pull Action Polling Interval",
+        "description": "The frequency at which nodes retrieve data from the panel.",
+        "placeholder": "Enter pull interval"
+      },
+      "server_push_interval": {
+        "title": "Node Push Action Polling Interval",
+        "description": "The frequency at which nodes push data to the panel.",
+        "placeholder": "Enter push interval"
+      },
+      "device_limit_mode": {
+        "title": "Device Limit Mode",
+        "description": "In relaxed mode, using multiple nodes from the same IP address counts as one device.",
+        "strict": "Strict Mode",
+        "relaxed": "Relaxed Mode",
+        "placeholder": "Select device limit mode"
+      },
+      "server_ws_enable": {
+        "title": "Enable WebSocket Communication",
+        "description": "When enabled, nodes will communicate with the panel via WebSocket for lower latency and more timely pushes.",
+        "supported_clients": "Node clients that currently support WebSocket communication: Xboard Node"
+      },
+      "server_ws_url": {
+        "title": "WebSocket URL",
+        "description": "The WebSocket address nodes use to connect to the panel. Leave empty to use the site URL.",
+        "placeholder": "Leave empty to use site URL"
+      },
+      "saving": "Saving..."
+    },
+    "invite": {
+      "title": "Invitation & Commission Settings",
+      "description": "Configure invitation registration and commission related settings.",
+      "invite_force": {
+        "title": "Enable Forced Invitation",
+        "description": "When enabled, only invited users can register."
+      },
+      "invite_commission": {
+        "title": "Invitation Commission Percentage",
+        "description": "Default global commission distribution ratio, you can configure individual ratios in user management.",
+        "placeholder": "Enter commission percentage"
+      },
+      "invite_gen_limit": {
+        "title": "Invitation Code Generation Limit",
+        "description": "Maximum number of invitation codes a user can create",
+        "placeholder": "Enter generation limit"
+      },
+      "invite_never_expire": {
+        "title": "Never Expire Invitation Code",
+        "description": "When enabled, invitation codes will not expire after use, otherwise they will expire after being used."
+      },
+      "commission_first_time": {
+        "title": "First-time Commission Only",
+        "description": "When enabled, commission will only be generated on the first payment of the invitee, can be configured individually in user management."
+      },
+      "commission_auto_check": {
+        "title": "Automatic Commission Confirmation",
+        "description": "When enabled, commission will be automatically confirmed 3 days after order completion."
+      },
+      "commission_withdraw_limit": {
+        "title": "Withdrawal Threshold (Yuan)",
+        "description": "Withdrawal requests below this threshold will not be submitted.",
+        "placeholder": "Enter withdrawal threshold"
+      },
+      "commission_withdraw_method": {
+        "title": "Withdrawal Methods",
+        "description": "Supported withdrawal methods, separate multiple methods with commas.",
+        "placeholder": "Enter withdrawal methods, separate with commas"
+      },
+      "withdraw_close": {
+        "title": "Disable Withdrawals",
+        "description": "When enabled, users will be prohibited from requesting withdrawals, and invitation commissions will go directly to user balance."
+      },
+      "commission_distribution": {
+        "title": "Three-level Distribution",
+        "description": "When enabled, commission will be split according to the three set ratios, total should not exceed 100%.",
+        "l1": "Level 1 Inviter Ratio",
+        "l2": "Level 2 Inviter Ratio",
+        "l3": "Level 3 Inviter Ratio",
+        "placeholder": "Enter ratio e.g. 50"
+      },
+      "saving": "Saving..."
+    },
+    "site": {
+      "title": "Site Settings",
+      "description": "Configure basic site information, including site name, description, currency unit, and other core settings.",
+      "form": {
+        "siteName": {
+          "label": "Site Name",
+          "placeholder": "Please enter site name",
+          "description": "Used where site name needs to be displayed."
+        },
+        "siteDescription": {
+          "label": "Site Description",
+          "placeholder": "Please enter site description",
+          "description": "Used where site description needs to be displayed."
+        },
+        "siteUrl": {
+          "label": "Site URL",
+          "placeholder": "Please enter site URL, without trailing /",
+          "description": "Current website URL, will be used in emails and other places where URL is needed."
+        },
+        "forceHttps": {
+          "label": "Force HTTPS",
+          "description": "Need to enable when the site is not using HTTPS but CDN or reverse proxy has forced HTTPS."
+        },
+        "logo": {
+          "label": "LOGO",
+          "placeholder": "Please enter LOGO URL, without trailing /",
+          "description": "Used where LOGO needs to be displayed."
+        },
+        "subscribeUrl": {
+          "label": "Subscribe URL",
+          "placeholder": "Used for subscription, multiple URLs separated by ','. Leave empty to use site URL.",
+          "description": "Used for subscription, leave empty to use site URL."
+        },
+        "tosUrl": {
+          "label": "Terms of Service (TOS) URL",
+          "placeholder": "Please enter TOS URL, without trailing /",
+          "description": "Used to link to Terms of Service (TOS)"
+        },
+        "stopRegister": {
+          "label": "Stop New User Registration",
+          "description": "When enabled, no one will be able to register."
+        },
+        "ticketMustWaitReply": {
+          "label": "Reply Wait Restriction",
+          "description": "When enabled, users cannot continue sending messages in the same ticket until an administrator replies."
+        },
+        "tryOut": {
+          "label": "Registration Trial",
+          "placeholder": "Disabled",
+          "description": "Select the subscription for trial, if no options please add in subscription management first.",
+          "duration": {
+            "label": "Trial Duration",
+            "placeholder": "0",
+            "description": "Trial duration in hours."
+          }
+        },
+        "currency": {
+          "label": "Currency Unit",
+          "placeholder": "CNY",
+          "description": "For display only, changing this will affect all currency units in the system."
+        },
+        "currencySymbol": {
+          "label": "Currency Symbol",
+          "placeholder": "¥",
+          "description": "For display only, changing this will affect all currency symbols in the system."
+        }
+      }
+    },
+    "safe": {
+      "title": "Security Settings",
+      "description": "Configure system security options, including login verification, password policies, and API access settings.",
+      "form": {
+        "emailVerify": {
+          "label": "Email Verification",
+          "description": "When enabled, users will be required to verify their email."
+        },
+        "gmailLimit": {
+          "label": "Disable Gmail Aliases",
+          "description": "When enabled, Gmail aliases will not be allowed to register."
+        },
+        "safeMode": {
+          "label": "Safe Mode",
+          "description": "When enabled, accessing the site through domains other than the site URL will be blocked with 403."
+        },
+        "securePath": {
+          "label": "Admin Path",
+          "placeholder": "admin",
+          "description": "Admin management path, changing this will modify the original admin path"
+        },
+        "emailWhitelist": {
+          "label": "Email Suffix Whitelist",
+          "description": "When enabled, only email suffixes in the list will be allowed to register.",
+          "suffixes": {
+            "label": "Email Suffixes",
+            "placeholder": "Enter email suffixes, one per line",
+            "description": "Enter the allowed email suffixes, one per line"
+          }
+        },
+        "captcha": {
+          "enable": {
+            "label": "Enable Captcha",
+            "description": "When enabled, users will need to pass captcha verification when registering."
+          },
+          "type": {
+            "label": "Captcha Type",
+            "description": "Select the captcha service type to use",
+            "options": {
+              "recaptcha": "Google reCAPTCHA v2",
+              "recaptcha-v3": "Google reCAPTCHA v3",
+              "turnstile": "Cloudflare Turnstile"
+            }
+          },
+          "recaptcha": {
+            "key": {
+              "label": "reCAPTCHA Key",
+              "placeholder": "Enter reCAPTCHA key",
+              "description": "Enter your reCAPTCHA key"
+            },
+            "siteKey": {
+              "label": "reCAPTCHA Site Key",
+              "placeholder": "Enter reCAPTCHA site key",
+              "description": "Enter your reCAPTCHA site key"
+            }
+          },
+          "recaptcha_v3": {
+            "secretKey": {
+              "label": "reCAPTCHA v3 Key",
+              "placeholder": "Enter reCAPTCHA v3 key",
+              "description": "Enter your reCAPTCHA v3 server key"
+            },
+            "siteKey": {
+              "label": "reCAPTCHA v3 Site Key",
+              "placeholder": "Enter reCAPTCHA v3 site key",
+              "description": "Enter your reCAPTCHA v3 site key"
+            },
+            "scoreThreshold": {
+              "label": "Score Threshold",
+              "placeholder": "0.5",
+              "description": "Set verification score threshold (0-1), higher scores indicate more likely human behavior"
+            }
+          },
+          "turnstile": {
+            "secretKey": {
+              "label": "Turnstile Key",
+              "placeholder": "Enter Turnstile key",
+              "description": "Enter your Cloudflare Turnstile key"
+            },
+            "siteKey": {
+              "label": "Turnstile Site Key",
+              "placeholder": "Enter Turnstile site key",
+              "description": "Enter your Cloudflare Turnstile site key"
+            }
+          }
+        },
+        "registerLimit": {
+          "enable": {
+            "label": "IP Registration Limit",
+            "description": "When enabled, the number of registrations from the same IP will be limited."
+          },
+          "count": {
+            "label": "Registration Count",
+            "placeholder": "Enter maximum registration count",
+            "description": "Maximum number of registrations allowed from the same IP"
+          },
+          "expire": {
+            "label": "Limit Duration",
+            "placeholder": "Enter limit duration in minutes",
+            "description": "Duration of the registration limit in minutes"
+          }
+        },
+        "passwordLimit": {
+          "enable": {
+            "label": "Password Attempt Limit",
+            "description": "When enabled, the number of password attempts will be limited."
+          },
+          "count": {
+            "label": "Attempt Count",
+            "placeholder": "Enter maximum attempt count",
+            "description": "Maximum number of password attempts allowed"
+          },
+          "expire": {
+            "label": "Lock Duration",
+            "placeholder": "Enter lock duration in minutes",
+            "description": "Duration of the account lock in minutes"
+          }
+        }
+      }
+    },
+    "subscribe": {
+      "title": "Subscription Settings",
+      "description": "Manage subscription-related configurations, including subscription link format, update frequency, traffic statistics, and other settings.",
+      "plan_change_enable": {
+        "title": "Allow Subscription Changes",
+        "description": "When enabled, users will be able to change their subscription plans."
+      },
+      "reset_traffic_method": {
+        "title": "Monthly Traffic Reset Method",
+        "description": "Global traffic reset method, defaults to the 1st of each month. Can be set individually for subscriptions in subscription management.",
+        "options": {
+          "monthly_first": "1st of Each Month",
+          "monthly_reset": "Monthly Reset",
+          "no_reset": "No Reset",
+          "yearly_first": "January 1st",
+          "yearly_reset": "Yearly Reset"
+        }
+      },
+      "surplus_enable": {
+        "title": "Enable Deduction Plan",
+        "description": "When enabled, the system will deduct from the original subscription when users change subscriptions, refer to documentation for details."
+      },
+      "new_order_event": {
+        "title": "Trigger Event on New Subscription",
+        "description": "This task will be triggered when a new subscription is completed.",
+        "options": {
+          "no_action": "No Action",
+          "reset_traffic": "Reset User Traffic"
+        }
+      },
+      "renew_order_event": {
+        "title": "Trigger Event on Subscription Renewal",
+        "description": "This task will be triggered when a subscription renewal is completed.",
+        "options": {
+          "no_action": "No Action",
+          "reset_traffic": "Reset User Traffic"
+        }
+      },
+      "change_order_event": {
+        "title": "Trigger Event on Subscription Change",
+        "description": "This task will be triggered when a subscription change is completed.",
+        "options": {
+          "no_action": "No Action",
+          "reset_traffic": "Reset User Traffic"
+        }
+      },
+      "subscribe_path": {
+        "title": "Subscription Path",
+        "description": "Subscription path, modifying will change the original subscribe path",
+        "current_format": "Current subscription path format: {path}/xxxxxxxxxx",
+        "restart_tip": "You may need to restart the service for the new subscribe path to take effect."
+      },
+      "show_info_to_server": {
+        "title": "Show Subscription Info in Nodes",
+        "description": "When enabled, subscription information will be output when users subscribe to nodes."
+      },
+      "show_protocol_to_server": {
+        "title": "Show Protocol in Node Names",
+        "description": "When enabled, subscription lines will include protocol names (e.g., [Hy2]Hong Kong)"
+      },
+      "saving": "Saving...",
+      "plan": {
+        "title": "Subscription Plans",
+        "add": "Add Plan",
+        "search": "Search plans...",
+        "sort": {
+          "edit": "Edit Sort",
+          "save": "Save Sort"
+        },
+        "columns": {
+          "id": "ID",
+          "show": "Show",
+          "sell": "Sell",
+          "renew": "Renew",
+          "renew_tooltip": "Whether existing users can renew when the subscription stops selling",
+          "name": "Name",
+          "stats": "Statistics",
+          "group": "Permission Group",
+          "price": "Price",
+          "actions": "Actions",
+          "edit": "Edit",
+          "delete": "Delete",
+          "delete_confirm": {
+            "title": "Confirm Delete",
+            "description": "This action will permanently delete this subscription and cannot be undone. Are you sure you want to continue?",
+            "success": "Successfully deleted"
+          },
+          "price_period": {
+            "monthly": "Monthly",
+            "quarterly": "Quarterly",
+            "half_yearly": "Half Yearly",
+            "yearly": "Yearly",
+            "two_yearly": "Two Years",
+            "three_yearly": "Three Years",
+            "onetime": "One Time",
+            "reset_traffic": "Reset Traffic",
+            "unit": {
+              "month": "/month",
+              "quarter": "/quarter",
+              "half_year": "/half year",
+              "year": "/year",
+              "two_year": "/2 years",
+              "three_year": "/3 years",
+              "times": "/time"
+            }
+          }
+        },
+        "form": {
+          "add_title": "Add Plan",
+          "edit_title": "Edit Plan",
+          "name": {
+            "label": "Plan Name",
+            "placeholder": "Enter plan name"
+          },
+          "group": {
+            "label": "Permission Group",
+            "placeholder": "Select permission group",
+            "add": "Add Group"
+          },
+          "transfer": {
+            "label": "Traffic",
+            "placeholder": "Enter traffic size",
+            "unit": "GB"
+          },
+          "speed": {
+            "label": "Speed Limit",
+            "placeholder": "Enter speed limit",
+            "unit": "Mbps"
+          },
+          "price": {
+            "title": "Price Settings",
+            "base_price": "Base monthly price",
+            "clear": {
+              "button": "Clear Prices",
+              "tooltip": "Clear all period price settings"
+            }
+          },
+          "device": {
+            "label": "Device Limit",
+            "placeholder": "Leave empty for no limit",
+            "unit": "devices"
+          },
+          "capacity": {
+            "label": "Capacity Limit",
+            "placeholder": "Leave empty for no limit",
+            "unit": "users"
+          },
+          "reset_method": {
+            "label": "Traffic Reset Method",
+            "placeholder": "Select traffic reset method",
+            "description": "Set how subscription traffic is reset, different methods affect how user traffic is calculated",
+            "options": {
+              "follow_system": "Follow System Settings",
+              "monthly_first": "1st of Each Month",
+              "monthly_reset": "Monthly Reset",
+              "no_reset": "No Reset",
+              "yearly_first": "January 1st",
+              "yearly_reset": "Yearly Reset"
+            }
+          },
+          "content": {
+            "label": "Plan Description",
+            "placeholder": "Write plan description here...",
+            "description": "Supports Markdown format, you can use headings, lists, bold, italic and other styles to beautify the content",
+            "preview": "Preview",
+            "preview_button": {
+              "show": "Show Preview",
+              "hide": "Hide Preview"
+            },
+            "template": {
+              "button": "Use Template",
+              "tooltip": "Click to use preset plan description template",
+              "content": "## Plan Features\n• High-speed and stable global network access\n• Support multiple devices online simultaneously\n• Unlimited traffic reset\n\n## Usage Instructions\n1. Supported devices: iOS, Android, Windows, macOS\n2. 24/7 technical support\n3. Automatic periodic traffic reset\n\n## Notes\n- No abuse allowed\n- Comply with local laws and regulations\n- Support plan changes anytime"
+            }
+          },
+          "force_update": {
+            "label": "Force Update to Users"
+          },
+          "submit": {
+            "submitting": "Submitting...",
+            "submit": "Submit",
+            "cancel": "Cancel",
+            "success": {
+              "add": "Plan added successfully",
+              "update": "Plan updated successfully"
+            }
+          }
+        },
+        "page": {
+          "description": "Here you can configure subscription plans, including adding, deleting, and editing operations."
+        }
+      }
+    },
+    "email": {
+      "title": "Email Settings",
+      "description": "Configure system email service for sending verification codes, password resets, and notifications, supporting various SMTP providers.",
+      "tab_settings": "Settings",
+      "tab_templates": "Templates",
+      "email_host": {
+        "title": "SMTP Host",
+        "description": "SMTP server address, e.g., smtp.gmail.com"
+      },
+      "email_port": {
+        "title": "SMTP Port",
+        "description": "SMTP server port, common ports: 25, 465, 587"
+      },
+      "email_username": {
+        "title": "SMTP Username",
+        "description": "SMTP authentication username"
+      },
+      "email_password": {
+        "title": "SMTP Password",
+        "description": "SMTP authentication password or application-specific password"
+      },
+      "email_encryption": {
+        "title": "Encryption Method",
+        "description": "Email encryption method",
+        "none": "None",
+        "ssl": "SSL/TLS",
+        "tls": "STARTTLS"
+      },
+      "email_from": {
+        "title": "From Address",
+        "description": "Sender's email address"
+      },
+      "email_from_name": {
+        "title": "From Name",
+        "description": "Sender's display name"
+      },
+      "email_template": {
+        "title": "Email Template",
+        "description": "You can check the documentation for how to customize email templates",
+        "placeholder": "Select email template"
+      },
+      "remind_mail": {
+        "title": "Email Reminders",
+        "description": "When enabled, users will receive email notifications when their subscription is about to expire or when traffic is running low."
+      },
+      "test": {
+        "title": "Send Test Email",
+        "sending": "Sending...",
+        "description": "Send a test email to verify the configuration",
+        "success": "Test email sent successfully",
+        "error": "Failed to send test email"
+      }
+    },
+    "telegram": {
+      "title": "Telegram Settings",
+      "description": "Configure Telegram bot functionality for user notifications, account binding, and command interactions.",
+      "bot_token": {
+        "title": "Bot Token",
+        "description": "Please enter the token provided by Botfather.",
+        "placeholder": "0000000000:xxxxxxxxx_xxxxxxxxxxxxxxx"
+      },
+      "webhook_url": {
+        "title": "Webhook Base URL",
+        "description": "Only provide the base URL here. The system will append the full Telegram webhook callback path automatically. Leave blank to use the site URL.",
+        "docs": "View Telegram Webhook Docs",
+        "placeholder": "https://example.com"
+      },
+      "webhook": {
+        "title": "Set Webhook",
+        "description": "Set up webhook for the bot. Without setting it, you won't receive Telegram notifications.",
+        "button": "One-Click Setup",
+        "setting": "Setting Webhook...",
+        "success": "Webhook set successfully",
+        "target_default": "The site URL will be used as the Webhook Base URL.",
+        "target_custom": "The custom Webhook Base URL currently in use is: {{url}}",
+        "debug": {
+          "title": "Webhook Debug Info",
+          "success": "Success",
+          "url": "Webhook URL",
+          "baseUrl": "Base URL"
+        }
+      },
+      "bot_enable": {
+        "title": "Enable Telegram Binding Guide",
+        "description": "When enabled, a Telegram binding guide will be displayed on the user side to help users bind their Telegram accounts for notifications."
+      },
+      "discuss_link": {
+        "title": "Group Link",
+        "description": "Once filled in, it will be displayed on the user side or used where needed.",
+        "placeholder": "https://t.me/xxxxxx"
+      }
+    },
+    "app": {
+      "title": "APP Settings",
+      "description": "Manage mobile application configurations, including API interfaces, version control, and push notifications.",
+      "common": {
+        "placeholder": "Please input"
+      },
+      "windows": {
+        "version": {
+          "title": "Windows Version",
+          "description": "Current version number of Windows client"
+        },
+        "download": {
+          "title": "Windows Download URL",
+          "description": "Download link for Windows client"
+        }
+      },
+      "macos": {
+        "version": {
+          "title": "macOS Version",
+          "description": "Current version number of macOS client"
+        },
+        "download": {
+          "title": "macOS Download URL",
+          "description": "Download link for macOS client"
+        }
+      },
+      "android": {
+        "version": {
+          "title": "Android Version",
+          "description": "Current version number of Android client"
+        },
+        "download": {
+          "title": "Android Download URL",
+          "description": "Download link for Android client"
+        }
+      }
+    },
+    "common": {
+      "saving": "Saving...",
+      "save_success": "Saved automatically",
+      "placeholder": "Please input",
+      "autoSaved": "Saved automatically"
+    },
+    "subscribe_template": {
+      "title": "Subscribe Templates",
+      "description": "Configure subscription templates for different clients",
+      "singbox": {
+        "title": "Sing-box Template",
+        "description": "Configure subscription template format for Sing-box"
+      },
+      "clash": {
+        "title": "Clash Template",
+        "description": "Configure subscription template format for Clash"
+      },
+      "clashmeta": {
+        "title": "Clash Meta Template",
+        "description": "Configure subscription template format for Clash Meta"
+      },
+      "stash": {
+        "title": "Stash Template",
+        "description": "Configure subscription template format for Stash"
+      },
+      "surge": {
+        "title": "Surge Template",
+        "description": "Configure subscription template format for Surge"
+      },
+      "surfboard": {
+        "title": "Surfboard Template",
+        "description": "Configure subscription template format for Surfboard"
+      }
+    },
+    "email_template": {
+      "title": "Email Templates",
+      "description": "Customize the content of system email templates",
+      "customized": "Customized",
+      "subject": "Subject",
+      "subject_placeholder": "Enter email subject, supports {{name}} placeholders",
+      "content": "Template Content (HTML)",
+      "preview": "Live Preview",
+      "override_hint": "Saving will override the default system template. Click \"Reset to Default\" to restore the theme's default template at any time.",
+      "placeholders": "Available Placeholders",
+      "var_name": "Variable",
+      "var_desc": "Description",
+      "var_sample": "Sample Value",
+      "required": "Required",
+      "insert": "Insert",
+      "placeholder_hint": "* marks required placeholders. Click to insert at the end of the content.",
+      "click_to_insert": "Click to insert",
+      "save": "Save",
+      "save_success": "Template saved successfully",
+      "save_before_test": "Please save changes before sending a test email",
+      "send_test": "Send Test",
+      "test_dialog_title": "Send Test Email",
+      "test_dialog_description": "Enter recipient email address. Leave empty to send to your admin email.",
+      "test_email_placeholder": "Recipient email (leave empty for current account)",
+      "sending": "Sending...",
+      "test_success": "Test email sent successfully",
+      "reset": "Reset to Default",
+      "reset_title": "Reset Template",
+      "reset_description": "Are you sure you want to reset this template to default? Your customizations will be deleted.",
+      "reset_confirm": "Confirm Reset",
+      "reset_success": "Template reset to default",
+      "unsaved": "Unsaved changes",
+      "discard_title": "Unsaved Changes",
+      "discard_description": "This template has unsaved changes. Switching tabs will discard them.",
+      "discard_confirm": "Discard",
+      "cancel": "Cancel"
+    }
+  },
+  "ticket": {
+    "title": "Ticket Management",
+    "description": "View and manage user tickets, including viewing, replying, and closing operations.",
+    "columns": {
+      "id": "Ticket ID",
+      "subject": "Subject",
+      "level": "Priority",
+      "status": "Status",
+      "updated_at": "Last Updated",
+      "created_at": "Created At",
+      "actions": "Actions"
+    },
+    "status": {
+      "closed": "Closed",
+      "replied": "Replied",
+      "pending": "Pending",
+      "processing": "Processing"
+    },
+    "level": {
+      "low": "Low Priority",
+      "medium": "Medium Priority",
+      "high": "High Priority"
+    },
+    "filter": {
+      "placeholder": "Search {field}...",
+      "no_results": "No results found",
+      "selected": "{count} selected",
+      "clear": "Clear filters"
+    },
+    "actions": {
+      "view_details": "View Details",
+      "close_ticket": "Close Ticket",
+      "close_confirm_title": "Confirm Close Ticket",
+      "close_confirm_description": "Are you sure you want to close this ticket? It will move to the closed list, but you can still reply later.",
+      "close_confirm_button": "Confirm Close",
+      "close_success": "Ticket closed successfully",
+      "view_ticket": "View Ticket"
+    },
+    "detail": {
+      "no_messages": "No messages yet",
+      "created_at": "Created at",
+      "sender_admin": "Admin",
+      "sender_user": "User",
+      "user_info": "User Info",
+      "traffic_records": "Traffic Records",
+      "order_records": "Order Records",
+      "input": {
+        "closed_reply_placeholder": "This ticket is closed, but you can still reply...",
+        "closed_hint": "This ticket is closed. You can keep replying and new messages will still be appended here.",
+        "reply_placeholder": "Type your reply...",
+        "sending": "Sending...",
+        "send": "Send"
+      }
+    },
+    "list": {
+      "title": "Ticket List",
+      "search_placeholder": "Search ticket subject or user email",
+      "no_tickets": "No tickets",
+      "no_open_tickets": "No open tickets",
+      "no_closed_tickets": "No closed tickets",
+      "no_search_results": "No matching tickets found",
+      "collapse": "Collapse list",
+      "expand": "Expand list"
+    }
+  },
+  "subscribe": {
+    "plan": {
+      "title": "Subscription Plans",
+      "add": "Add Plan",
+      "search": "Search plans...",
+      "sort": {
+        "edit": "Edit Sort",
+        "save": "Save Sort"
+      },
+      "columns": {
+        "id": "ID",
+        "show": "Show",
+        "sell": "Sell",
+        "renew": "Renew",
+        "renew_tooltip": "Whether existing users can renew when the subscription stops selling",
+        "name": "Name",
+        "stats": "Statistics",
+        "group": "Permission Group",
+        "price": "Price",
+        "actions": "Actions",
+        "edit": "Edit",
+        "delete": "Delete",
+        "delete_confirm": {
+          "title": "Confirm Delete",
+          "description": "This action will permanently delete this subscription and cannot be undone. Are you sure you want to continue?",
+          "success": "Successfully deleted"
+        },
+        "price_period": {
+          "monthly": "Monthly",
+          "quarterly": "Quarterly",
+          "half_yearly": "Half Yearly",
+          "yearly": "Yearly",
+          "two_yearly": "Two Years",
+          "three_yearly": "Three Years",
+          "onetime": "One Time",
+          "reset_traffic": "Reset Traffic",
+          "no_price": "No Price",
+          "unit": {
+            "month": "/month",
+            "quarter": "/quarter",
+            "half_year": "/half year",
+            "year": "/year",
+            "two_year": "/2 years",
+            "three_year": "/3 years",
+            "times": "/time"
+          }
+        }
+      },
+      "form": {
+        "add_title": "Add Plan",
+        "edit_title": "Edit Plan",
+        "name": {
+          "label": "Plan Name",
+          "placeholder": "Enter plan name"
+        },
+        "group": {
+          "label": "Server Group",
+          "add": "Add Group",
+          "placeholder": "Select server group"
+        },
+        "transfer": {
+          "label": "Traffic",
+          "placeholder": "Enter traffic limit",
+          "unit": "GB"
+        },
+        "speed": {
+          "label": "Speed Limit",
+          "placeholder": "Enter speed limit",
+          "unit": "Mbps"
+        },
+        "price": {
+          "title": "Price Settings",
+          "base_price": "Base Price",
+          "clear": {
+            "button": "Clear",
+            "tooltip": "Clear all prices"
+          },
+          "period": {
+            "monthly": "Monthly",
+            "months": "{{count}} Months"
+          },
+          "onetime_desc": "One-time traffic package, no time limit",
+          "reset_desc": "Reset traffic package, can be used multiple times"
+        },
+        "device": {
+          "label": "Device Limit",
+          "placeholder": "Enter device limit",
+          "unit": "Devices"
+        },
+        "capacity": {
+          "label": "Capacity Limit",
+          "placeholder": "Enter capacity limit",
+          "unit": "Users"
+        },
+        "tags": {
+          "label": "Tags",
+          "placeholder": "Enter a tag and press Enter to confirm"
+        },
+        "reset_method": {
+          "label": "Traffic Reset Method",
+          "placeholder": "Select reset method",
+          "description": "Traffic reset method will determine how the traffic is reset",
+          "options": {
+            "follow_system": "Follow System Settings",
+            "monthly_first": "Monthly First Day",
+            "monthly_reset": "Monthly Purchase Day",
+            "no_reset": "No Reset",
+            "yearly_first": "Yearly First Day",
+            "yearly_reset": "Yearly Purchase Day"
+          }
+        },
+        "content": {
+          "label": "Plan Description",
+          "placeholder": "Enter plan description",
+          "description": "Support Markdown format",
+          "preview": "Preview",
+          "preview_button": {
+            "show": "Show Preview",
+            "hide": "Hide Preview"
+          },
+          "template": {
+            "button": "Use Template",
+            "tooltip": "Use default template",
+            "content": "## Plan Details\n\n- Data: {{transfer}} GB\n- Speed Limit: {{speed}} Mbps\n- Concurrent Devices: {{devices}}\n\n## Service Information\n\n1. Data {{reset_method}}\n2. Multi-platform Support\n3. 24/7 Technical Support"
+          }
+        },
+        "force_update": {
+          "label": "Force Update User Plans"
+        },
+        "submit": {
+          "cancel": "Cancel",
+          "submit": "Submit",
+          "submitting": "Submitting...",
+          "success": {
+            "add": "Plan added successfully",
+            "update": "Plan updated successfully"
+          },
+          "error": {
+            "validation": "Form validation failed. Please check for errors and try again."
+          }
+        }
+      },
+      "page": {
+        "description": "Here you can configure subscription plans, including adding, deleting, and editing operations."
+      }
+    }
+  },
+  "sidebar": {
     "dashboard": "Dashboard",
     "systemManagement": "System Management",
     "systemConfig": "System Configuration",
     "themeConfig": "Theme Configuration",
     "noticeManagement": "Notice Management",
-    "pluginManagement": "Plugin Management",
     "paymentConfig": "Payment Configuration",
-    "knowledgeManagement": "Knowledge Management",
+    "knowledgeManagement": "Knowledge Base",
     "nodeManagement": "Node Management",
-    "machineManagement": "Server Management",
-    "permissionGroupManagement": "Permission Group",
+    "permissionGroupManagement": "Permission Groups",
     "routeManagement": "Route Management",
-    "subscriptionManagement": "Subscription",
+    "subscriptionManagement": "Subscription Management",
     "planManagement": "Plan Management",
     "orderManagement": "Order Management",
     "couponManagement": "Coupon Management",
-    "giftCardManagement": "Gift Card Management",
     "userManagement": "User Management",
-    "trafficResetLogs": "Traffic Reset Logs",
-    "ticketManagement": "Ticket Management",
-    "pluginApps": "Plugin Apps"
+    "ticketManagement": "Ticket Management"
   },
   "auth": {
     "signIn": {
@@ -452,314 +1121,439 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
       }
     }
   },
-  "notice": {
-    "title": "Notice Management",
-    "description": "Here you can configure notices, including adding, deleting, editing and other operations.",
-    "table": {
-      "columns": {
-        "id": "ID",
-        "show": "Display Status",
-        "title": "Title",
-        "actions": "Actions"
+  "giftCard": {
+    "title": "Gift Card Management",
+    "description": "Manage gift card templates, redemption codes, and usage records.",
+    "tabs": {
+      "templates": "Template Management",
+      "codes": "Redemption Code Management",
+      "usages": "Usage Records",
+      "statistics": "Statistics"
+    },
+    "template": {
+      "title": "Template Management",
+      "description": "Manage gift card templates, including creating, editing, and deleting templates.",
+      "table": {
+        "title": "Template List",
+        "columns": {
+          "id": "ID",
+          "name": "Name",
+          "type": "Type",
+          "status": "Status",
+          "sort": "Sort",
+          "rewards": "Rewards",
+          "created_at": "Created At",
+          "actions": "Actions",
+          "no_rewards": "No Rewards"
+        }
       },
-      "toolbar": {
-        "search": "Search notice title...",
-        "reset": "Reset",
+      "form": {
+        "add": "Add Template",
+        "edit": "Edit Template",
+        "name": {
+          "label": "Template Name",
+          "placeholder": "Please enter template name",
+          "required": "Please enter template name"
+        },
         "sort": {
-          "edit": "Edit Order",
-          "save": "Save Order"
+          "label": "Sort",
+          "placeholder": "Smaller numbers appear first"
+        },
+        "type": {
+          "label": "Type",
+          "placeholder": "Please select gift card type"
+        },
+        "description": {
+          "label": "Description",
+          "placeholder": "Please enter gift card description"
+        },
+        "status": {
+          "label": "Status",
+          "description": "When disabled, this template cannot generate or redeem new gift cards."
+        },
+        "display": {
+          "title": "Display Effect"
+        },
+        "theme_color": {
+          "label": "Theme Color"
+        },
+        "icon": {
+          "label": "Icon",
+          "placeholder": "Please enter icon URL"
+        },
+        "background_image": {
+          "label": "Background Image",
+          "placeholder": "Please enter background image URL"
+        },
+        "conditions": {
+          "title": "Usage Conditions",
+          "new_user_max_days": {
+            "label": "New User Registration Days Limit",
+            "placeholder": "Example: 7 (Only for users registered within 7 days)"
+          },
+          "new_user_only": {
+            "label": "New Users Only"
+          },
+          "paid_user_only": {
+            "label": "Paid Users Only"
+          },
+          "require_invite": {
+            "label": "Require Invitation Relationship"
+          },
+          "allowed_plans": {
+            "label": "Allowed Plans",
+            "placeholder": "Select plans allowed for redemption (leave empty for no restriction)"
+          },
+          "disallowed_plans": {
+            "label": "Disallowed Plans",
+            "placeholder": "Select plans forbidden for redemption (leave empty for no restriction)"
+          }
+        },
+        "limits": {
+          "title": "Usage Limits",
+          "max_use_per_user": {
+            "label": "Max Uses Per User",
+            "placeholder": "Leave empty for no limit"
+          },
+          "cooldown_hours": {
+            "label": "Cooldown Hours for Same Type",
+            "placeholder": "Leave empty for no limit"
+          },
+          "invite_reward_rate": {
+            "label": "Inviter Reward Rate",
+            "placeholder": "Example: 0.2 (represents 20%)",
+            "description": "When user has an inviter, inviter reward = balance reward × this rate"
+          }
+        },
+        "rewards": {
+          "title": "Rewards",
+          "balance": {
+            "label": "Reward Balance (Yuan)",
+            "short_label": "Balance",
+            "placeholder": "Please enter reward amount (Yuan)"
+          },
+          "transfer_enable": {
+            "label": "Reward Traffic (GB)",
+            "short_label": "Traffic",
+            "placeholder": "Please enter reward traffic (GB)"
+          },
+          "expire_days": {
+            "label": "Extend Validity (Days)",
+            "short_label": "Validity",
+            "placeholder": "Please enter extension days"
+          },
+          "transfer": {
+            "label": "Reward Traffic (Bytes)",
+            "placeholder": "Please enter reward traffic (bytes)"
+          },
+          "days": {
+            "label": "Extend Validity (Days)",
+            "placeholder": "Please enter extension days"
+          },
+          "device_limit": {
+            "label": "Increase Device Count",
+            "short_label": "Devices",
+            "placeholder": "Please enter increased device count"
+          },
+          "reset_package": {
+            "label": "Reset Monthly Traffic",
+            "description": "When enabled, redemption will clear the user's current plan's used traffic."
+          },
+          "reset_count": {
+            "description": "This type of card will reset the user's monthly traffic usage."
+          },
+          "task_card": {
+            "description": "Specific rewards for task gift cards will be configured in the task system."
+          },
+          "plan_id": {
+            "label": "Specified Plan",
+            "short_label": "Plan",
+            "placeholder": "Please select a plan"
+          },
+          "plan_validity_days": {
+            "label": "Plan Validity (Days)",
+            "short_label": "Plan Validity",
+            "placeholder": "Leave empty to use plan default validity"
+          },
+          "random_rewards": {
+            "label": "Random Reward Pool",
+            "add": "Add Random Reward Item",
+            "weight": "Weight"
+          }
+        },
+        "special_config": {
+          "title": "Special Configuration",
+          "start_time": {
+            "label": "Event Start Time",
+            "placeholder": "Please select start date"
+          },
+          "end_time": {
+            "label": "Event End Time",
+            "placeholder": "Please select end date"
+          },
+          "festival_bonus": {
+            "label": "Festival Reward Multiplier",
+            "placeholder": "Example: 1.5 (represents 1.5x)"
+          }
+        },
+        "submit": {
+          "saving": "Saving...",
+          "save": "Save"
         }
       },
       "actions": {
         "edit": "Edit",
+        "delete": "Delete",
+        "deleteConfirm": {
+          "title": "Confirm Delete",
+          "description": "This action will permanently delete this template. Are you sure you want to continue?",
+          "confirmText": "Delete"
+        }
+      }
+    },
+    "code": {
+      "title": "Redemption Code Management",
+      "form": {
+        "generate": "Generate Redemption Codes",
+        "template_id": {
+          "label": "Select Template",
+          "placeholder": "Please select a template to generate redemption codes"
+        },
+        "count": {
+          "label": "Generation Count"
+        },
+        "prefix": {
+          "label": "Custom Prefix (Optional)"
+        },
+        "expires_hours": {
+          "label": "Validity (Hours)"
+        },
+        "max_usage": {
+          "label": "Max Usage Count"
+        },
+        "download_csv": "Export CSV",
+        "submit": {
+          "generating": "Generating...",
+          "generate": "Generate Now"
+        }
+      },
+      "description": "Manage gift card redemption codes, including generation, viewing, and exporting codes.",
+      "generate": {
+        "title": "Generate Redemption Codes",
+        "template": "Select Template",
+        "count": "Generation Count",
+        "prefix": "Custom Prefix",
+        "expires_hours": "Validity (Hours)",
+        "max_usage": "Max Usage Count",
+        "submit": "Generate"
+      },
+      "table": {
+        "title": "Redemption Code List",
+        "columns": {
+          "id": "ID",
+          "code": "Redemption Code",
+          "template_name": "Template Name",
+          "status": "Status",
+          "expires_at": "Expires At",
+          "usage_count": "Used Count",
+          "max_usage": "Available Count",
+          "created_at": "Created At"
+        }
+      },
+      "actions": {
+        "enable": "Enable",
+        "disable": "Disable",
+        "export": "Export",
+        "exportConfirm": {
+          "title": "Confirm Export",
+          "description": "This will export all redemption codes from the selected batch as a text file. Are you sure you want to continue?",
+          "confirmText": "Export"
+        }
+      },
+      "status": {
+        "0": "Unused",
+        "1": "Used",
+        "2": "Disabled",
+        "3": "Expired"
+      }
+    },
+    "usage": {
+      "title": "Usage Records",
+      "description": "View gift card usage records and detailed information.",
+      "table": {
+        "columns": {
+          "id": "ID",
+          "code": "Redemption Code",
+          "template_name": "Template Name",
+          "user_email": "User Email",
+          "rewards_given": "Rewards Given",
+          "invite_rewards": "Invitation Rewards",
+          "multiplier_applied": "Multiplier Applied",
+          "ip_address": "IP Address",
+          "created_at": "Usage Time",
+          "actions": "Actions"
+        }
+      },
+      "actions": {
+        "view": "View Details"
+      }
+    },
+    "statistics": {
+      "title": "Statistics",
+      "description": "View gift card statistics and usage analysis.",
+      "total": {
+        "title": "Overall Statistics",
+        "templates_count": "Total Templates",
+        "active_templates_count": "Active Templates",
+        "codes_count": "Total Redemption Codes",
+        "used_codes_count": "Used Redemption Codes",
+        "usages_count": "Usage Records"
+      },
+      "daily": {
+        "title": "Daily Usage",
+        "chart": "Usage Trend Chart"
+      },
+      "type": {
+        "title": "Type Statistics",
+        "chart": "Type Distribution Chart"
+      },
+      "dateRange": {
+        "label": "Date Range",
+        "start": "Start Date",
+        "end": "End Date"
+      }
+    },
+    "types": {
+      "1": "General Gift Card",
+      "2": "Plan Gift Card",
+      "3": "Mystery Gift Card",
+      "4": "Task Gift Card"
+    },
+    "common": {
+      "search": "Search gift cards...",
+      "reset": "Reset",
+      "filter": "Filter",
+      "export": "Export",
+      "refresh": "Refresh",
+      "back": "Back",
+      "close": "Close",
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "enabled": "Enabled",
+      "disabled": "Disabled",
+      "loading": "Loading...",
+      "noData": "No Data",
+      "success": "Operation Successful",
+      "error": "Operation Failed"
+    },
+    "messages": {
+      "formInvalid": "Please check if the form input is correct",
+      "templateCreated": "Template created successfully",
+      "templateUpdated": "Template updated successfully",
+      "templateDeleted": "Template deleted successfully",
+      "codeGenerated": "Redemption codes generated successfully",
+      "generateCodeFailed": "Failed to generate redemption codes",
+      "codeStatusUpdated": "Redemption code status updated successfully",
+      "updateCodeStatusFailed": "Failed to update redemption code status",
+      "codesExported": "Redemption codes exported successfully",
+      "createTemplateFailed": "Failed to create template",
+      "updateTemplateFailed": "Failed to update template",
+      "deleteTemplateFailed": "Failed to delete template",
+      "loadDataFailed": "Failed to load data",
+      "codesGenerated": "Redemption codes generated successfully"
+    }
+  },
+  "payment": {
+    "title": "Payment Configuration",
+    "description": "Configure payment methods including Alipay, WeChat Pay, etc.",
+    "table": {
+      "columns": {
+        "id": "ID",
+        "enable": "Enable",
+        "name": "Display Name",
+        "payment": "Payment Gateway",
+        "notify_url": "Notify URL",
+        "notify_url_tooltip": "The payment gateway will send notifications to this address. Please ensure it's accessible through your firewall.",
+        "actions": "Actions"
+      },
+      "actions": {
+        "edit": "Edit",
         "delete": {
-          "title": "Delete Confirmation",
-          "description": "Are you sure you want to delete this notice? This action cannot be undone.",
+          "title": "Confirm Delete",
+          "description": "Are you sure you want to delete this payment method? This action cannot be undone.",
           "success": "Successfully deleted"
+        }
+      },
+      "toolbar": {
+        "search": "Search payment methods...",
+        "reset": "Reset",
+        "sort": {
+          "hint": "Drag payment methods to sort, click save when finished",
+          "save": "Save Order",
+          "edit": "Edit Order"
         }
       }
     },
     "form": {
       "add": {
-        "title": "Add Notice",
-        "button": "Add Notice"
+        "button": "Add Payment Method",
+        "title": "Add Payment Method"
       },
       "edit": {
-        "title": "Edit Notice"
+        "title": "Edit Payment Method"
       },
       "fields": {
-        "title": {
-          "label": "Title",
-          "placeholder": "Please enter notice title"
+        "name": {
+          "label": "Display Name",
+          "placeholder": "Enter payment name",
+          "description": "Used for frontend display"
         },
-        "content": {
-          "label": "Content"
+        "icon": {
+          "label": "Icon URL",
+          "placeholder": "https://example.com/icon.svg",
+          "description": "Icon URL for frontend display"
         },
-        "img_url": {
-          "label": "Background Image",
-          "placeholder": "Please enter notice background image URL"
+        "notify_domain": {
+          "label": "Notify Domain",
+          "placeholder": "https://example.com",
+          "description": "Domain for gateway notifications"
         },
-        "show": {
-          "label": "Display"
+        "handling_fee_percent": {
+          "label": "Percentage Fee (%)",
+          "placeholder": "0-100"
         },
-        "tags": {
-          "label": "Tags",
-          "placeholder": "Press Enter to add tags"
+        "handling_fee_fixed": {
+          "label": "Fixed Fee",
+          "placeholder": "0"
+        },
+        "payment": {
+          "label": "Payment Gateway",
+          "placeholder": "Select payment gateway",
+          "description": "Choose the payment gateway to use"
+        }
+      },
+      "validation": {
+        "name": {
+          "min": "Name must be at least 2 characters",
+          "max": "Name cannot exceed 30 characters"
+        },
+        "notify_domain": {
+          "url": "Please enter a valid URL"
+        },
+        "payment": {
+          "required": "Please select a payment gateway"
         }
       },
       "buttons": {
         "cancel": "Cancel",
-        "submit": "Submit",
-        "success": "Successfully submitted"
-      }
-    }
-  },
-  "order": {
-    "title": "Order Management",
-    "description": "Here you can view user orders, including assignment, viewing, deletion and other operations.",
-    "table": {
-      "columns": {
-        "tradeNo": "Order No.",
-        "type": "Type",
-        "plan": "Subscription Plan",
-        "period": "Period",
-        "amount": "Payment Amount",
-        "status": "Order Status",
-        "commission": "Commission Amount",
-        "commissionStatus": "Commission Status",
-        "createdAt": "Created At"
-      }
-    },
-    "type": {
-      "NEW": "New Purchase",
-      "RENEWAL": "Renewal",
-      "UPGRADE": "Upgrade",
-      "RESET_FLOW": "Reset Traffic"
-    },
-    "period": {
-      "month_price": "Monthly",
-      "quarter_price": "Quarterly",
-      "half_year_price": "Semi-annually",
-      "year_price": "Annually",
-      "two_year_price": "2 Years",
-      "three_year_price": "3 Years",
-      "onetime_price": "One-time",
-      "reset_price": "Reset Package"
-    },
-    "status": {
-      "PENDING": "Pending",
-      "PROCESSING": "Processing",
-      "CANCELLED": "Cancelled",
-      "COMPLETED": "Completed",
-      "DISCOUNTED": "Discounted",
-      "tooltip": "After marking as [Paid], the system will proceed with activation and completion"
-    },
-    "commission": {
-      "PENDING": "Pending",
-      "PROCESSING": "Processing",
-      "VALID": "Valid",
-      "INVALID": "Invalid"
-    },
-    "actions": {
-      "markAsPaid": "Mark as Paid",
-      "cancel": "Cancel Order",
-      "openMenu": "Open Menu",
-      "reset": "Reset"
-    },
-    "search": {
-      "placeholder": "Search orders..."
-    },
-    "dialog": {
-      "title": "Order Information",
-      "basicInfo": "Basic Information",
-      "amountInfo": "Amount Information",
-      "timeInfo": "Time Information",
-      "commissionInfo": "Commission Information",
-      "commissionStatusActive": "Active",
-      "addOrder": "Add Order",
-      "assignOrder": "Assign Order",
-      "fields": {
-        "userEmail": "User Email",
-        "orderPeriod": "Order Period",
-        "subscriptionPlan": "Subscription Plan",
-        "callbackNo": "Callback No.",
-        "paymentAmount": "Payment Amount",
-        "balancePayment": "Balance Payment",
-        "discountAmount": "Discount Amount",
-        "refundAmount": "Refund Amount",
-        "deductionAmount": "Deduction Amount",
-        "createdAt": "Created At",
-        "updatedAt": "Updated At",
-        "commissionStatus": "Commission Status",
-        "commissionAmount": "Commission Amount",
-        "actualCommissionAmount": "Actual Commission",
-        "inviteUser": "Inviter",
-        "inviteUserId": "Inviter ID"
+        "submit": "Submit"
       },
-      "placeholders": {
-        "email": "Please enter user email",
-        "plan": "Please select subscription plan",
-        "period": "Please select subscription period",
-        "amount": "Please enter payment amount"
-      },
-      "actions": {
-        "cancel": "Cancel",
-        "confirm": "Confirm"
+      "sections": {
+        "payment_config": "Payment Configuration"
       },
       "messages": {
-        "addSuccess": "Added successfully"
+        "success": "Saved successfully"
       }
-    }
-  },
-  "dashboard": {
-    "title": "Dashboard",
-    "stats": {
-      "newUsers": "New Users",
-      "totalScore": "Total Score",
-      "monthlyUpload": "Monthly Upload",
-      "vsLastMonth": "vs Last Month",
-      "vsYesterday": "vs Yesterday",
-      "todayIncome": "Today's Income",
-      "monthlyIncome": "Monthly Income",
-      "totalIncome": "Total Income",
-      "totalUsers": "Total Users",
-      "activeUsers": "Active Users: {{count}}",
-      "totalOrders": "Total Orders",
-      "revenue": "Revenue",
-      "todayRegistered": "Today Registered",
-      "monthlyRegistered": "Monthly Registered",
-      "onlineUsers": "Online Users",
-      "pendingTickets": "Pending Tickets",
-      "hasPendingTickets": "There are tickets that need attention",
-      "noPendingTickets": "No pending tickets",
-      "pendingCommission": "Pending Commission",
-      "hasPendingCommission": "There are commissions that need confirmation",
-      "noPendingCommission": "No pending commission",
-      "monthlyNewUsers": "Monthly New Users",
-      "monthlyDownload": "Monthly Download",
-      "todayTraffic": "Today: {{value}}",
-      "activeUserTrend": "Active User Trend",
-      "realtimeUsers": "Realtime Users",
-      "todayPeak": "Today's Peak",
-      "vsLastWeek": "vs Last Week"
-    },
-    "trafficRank": {
-      "nodeTrafficRank": "Node Traffic Rank",
-      "userTrafficRank": "User Traffic Rank",
-      "today": "Today",
-      "last7days": "Last 7 Days",
-      "last30days": "Last 30 Days",
-      "customRange": "Custom Range",
-      "selectTimeRange": "Select Time Range",
-      "selectDateRange": "Select Date Range",
-      "currentTraffic": "Current Traffic",
-      "previousTraffic": "Previous Traffic",
-      "changeRate": "Change Rate",
-      "recordTime": "Record Time"
-    },
-    "overview": {
-      "title": "Revenue Overview",
-      "thisMonth": "This Month",
-      "lastMonth": "Last Month",
-      "to": "to",
-      "selectTimeRange": "Select Range",
-      "selectDate": "Select Date",
-      "last7Days": "Last 7 Days",
-      "last30Days": "Last 30 Days",
-      "last90Days": "Last 90 Days",
-      "last180Days": "Last 180 Days",
-      "lastYear": "Last Year",
-      "customRange": "Custom Range",
-      "amount": "Amount",
-      "count": "Count",
-      "transactions": "{{count}} transactions",
-      "orderAmount": "Order Amount",
-      "commissionAmount": "Commission Amount",
-      "orderCount": "Order Count",
-      "commissionCount": "Commission Count",
-      "totalIncome": "Total Income",
-      "totalCommission": "Total Commission",
-      "totalTransactions": "Total: {{count}} transactions",
-      "avgOrderAmount": "Average Order Amount:",
-      "commissionRate": "Commission Rate:"
-    },
-    "traffic": {
-      "title": "Traffic Ranking",
-      "rank": "Rank",
-      "domain": "Domain",
-      "todayTraffic": "Today's Traffic",
-      "monthlyTraffic": "Monthly Traffic"
-    },
-    "queue": {
-      "title": "Queue Status",
-      "jobDetails": "Job Details",
-      "status": {
-        "description": "Current queue running status",
-        "running": "Running Status",
-        "normal": "Normal",
-        "abnormal": "Abnormal",
-        "waitTime": "Current wait time: {{seconds}} seconds",
-        "pending": "Pending",
-        "processing": "Processing",
-        "completed": "Completed",
-        "failed": "Failed",
-        "cancelled": "Cancelled"
-      },
-      "details": {
-        "description": "Queue processing details",
-        "recentJobs": "Recent Jobs",
-        "statisticsPeriod": "Statistics Period: {{hours}} hours",
-        "jobsPerMinute": "Jobs Per Minute",
-        "maxThroughput": "Max Throughput: {{value}}",
-        "failedJobs7Days": "Failed Jobs (7 days)",
-        "retentionPeriod": "Retention Period: {{hours}} hours",
-        "longestRunningQueue": "Longest Running Queue",
-        "activeProcesses": "Active Processes",
-        "id": "Job ID",
-        "type": "Job Type",
-        "status": "Status",
-        "progress": "Progress",
-        "createdAt": "Created At",
-        "updatedAt": "Updated At",
-        "error": "Error Message",
-        "data": "Job Data",
-        "result": "Result",
-        "duration": "Duration",
-        "attempts": "Attempts",
-        "nextRetry": "Next Retry",
-        "failedJobsDetailTitle": "Failed Jobs Details",
-        "viewFailedJobs": "View Failed Jobs",
-        "jobDetailTitle": "Job Details",
-        "time": "Time",
-        "queue": "Queue",
-        "name": "Job Name",
-        "exception": "Exception",
-        "noFailedJobs": "No failed jobs",
-        "connection": "Connection",
-        "payload": "Job Payload",
-        "viewDetail": "View Details",
-        "action": "Action"
-      },
-      "actions": {
-        "retry": "Retry",
-        "cancel": "Cancel",
-        "delete": "Delete",
-        "viewDetails": "View Details"
-      },
-      "empty": "No jobs in queue",
-      "loading": "Loading queue status...",
-      "error": "Failed to load queue status"
-    },
-    "common": {
-      "refresh": "Refresh",
-      "close": "Close",
-      "pagination": "Page {{current}}/{{total}}, {{count}} items total"
-    },
-    "search": {
-      "placeholder": "Search menus and functions...",
-      "title": "Menu Navigation",
-      "noResults": "No results found",
-      "loading": "Searching..."
     }
   },
   "server": {
@@ -1512,13 +2306,217 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
       "confirm": "Confirm"
     }
   },
-  "search": {
-    "placeholder": "Search menus and functions...",
-    "title": "Menu Navigation",
-    "noResults": "No results found",
-    "shortcut": {
-      "label": "Search",
-      "key": "⌘K"
+  "traffic": {
+    "trafficRecord": {
+      "title": "Traffic Usage Records",
+      "time": "Time",
+      "upload": "Upload",
+      "download": "Download",
+      "rate": "Rate",
+      "total": "Total",
+      "noRecords": "No records found",
+      "perPage": "Show per page",
+      "records": "records",
+      "page": "Page {{current}} / {{total}}",
+      "multiplier": "{{value}}x"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "close": "Close",
+    "delete": {
+      "success": "Deleted successfully",
+      "failed": "Failed to delete"
+    },
+    "edit": "Edit",
+    "view": "View",
+    "toggleNavigation": "Toggle Navigation",
+    "toggleSidebar": "Toggle Sidebar",
+    "search": "Search...",
+    "theme": {
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "user": "User",
+    "defaultEmail": "user@example.com",
+    "settings": "Settings",
+    "logout": "Logout",
+    "copy": {
+      "success": "Copied successfully",
+      "failed": "Failed to copy",
+      "error": "Copy failed",
+      "errorLog": "Error copying to clipboard"
+    },
+    "submit": "Submit",
+    "saving": "Saving...",
+    "table": {
+      "noData": "No data available",
+      "pagination": {
+        "selected": "{{selected}} of {{total}} items selected",
+        "itemsPerPage": "Per page",
+        "page": "Page",
+        "pageOf": "of {{total}} pages",
+        "firstPage": "Go to first page",
+        "previousPage": "Previous page",
+        "nextPage": "Next page",
+        "lastPage": "Go to last page"
+      },
+      "viewOptions": {
+        "button": "Columns",
+        "label": "Toggle columns"
+      }
+    },
+    "update": {
+      "title": "System Update",
+      "newVersion": "New Version Available",
+      "currentVersion": "Current Version",
+      "latestVersion": "Latest Version",
+      "updateLater": "Update Later",
+      "updateNow": "Update Now",
+      "updating": "Updating...",
+      "updateSuccess": "Update successful, system will restart shortly",
+      "updateFailed": "Update failed, please try again later"
+    },
+    "time": {
+      "day": "day",
+      "hour": " hour(s)"
+    },
+    "reset": "Reset",
+    "export": "Export",
+    "currency": {
+      "yuan": "Yuan"
+    },
+    "http": {
+      "notLoggedIn": "Not logged in",
+      "unknownError": "Unknown error",
+      "loginExpired": "Login expired",
+      "noPermission": "No permission",
+      "notFound": "Resource or API not found",
+      "unknownException": "Unknown exception"
+    }
+  },
+  "notice": {
+    "title": "Notice Management",
+    "description": "Here you can configure notices, including adding, deleting, editing and other operations.",
+    "table": {
+      "columns": {
+        "id": "ID",
+        "show": "Display Status",
+        "title": "Title",
+        "actions": "Actions"
+      },
+      "toolbar": {
+        "search": "Search notice title...",
+        "reset": "Reset",
+        "sort": {
+          "edit": "Edit Order",
+          "save": "Save Order"
+        }
+      },
+      "actions": {
+        "edit": "Edit",
+        "delete": {
+          "title": "Delete Confirmation",
+          "description": "Are you sure you want to delete this notice? This action cannot be undone.",
+          "success": "Successfully deleted"
+        }
+      }
+    },
+    "form": {
+      "add": {
+        "title": "Add Notice",
+        "button": "Add Notice"
+      },
+      "edit": {
+        "title": "Edit Notice"
+      },
+      "fields": {
+        "title": {
+          "label": "Title",
+          "placeholder": "Please enter notice title"
+        },
+        "content": {
+          "label": "Content"
+        },
+        "img_url": {
+          "label": "Background Image",
+          "placeholder": "Please enter notice background image URL"
+        },
+        "show": {
+          "label": "Display"
+        },
+        "tags": {
+          "label": "Tags",
+          "placeholder": "Press Enter to add tags"
+        }
+      },
+      "buttons": {
+        "cancel": "Cancel",
+        "submit": "Submit",
+        "success": "Successfully submitted"
+      }
+    }
+  },
+  "route": {
+    "title": "Route Management",
+    "description": "Manage all route groups, including adding, deleting, and editing operations.",
+    "columns": {
+      "id": "Group ID",
+      "remarks": "Remarks",
+      "action": "Action",
+      "actions": "Actions",
+      "matchRules": "Match {{count}} rules",
+      "action_value": {
+        "title": "Action Value",
+        "dns": "DNS: {{value}}",
+        "proxy": "Proxy ({{value}})",
+        "block": "Block Access",
+        "direct": "Direct Connection"
+      }
+    },
+    "actions": {
+      "dns": "Resolve using specified DNS server",
+      "block": "Block access",
+      "direct": "Direct connection",
+      "proxy": "Proxy"
+    },
+    "form": {
+      "add": "Add Route",
+      "edit": "Edit Route",
+      "create": "Create Route",
+      "remarks": "Remarks",
+      "remarksPlaceholder": "Please enter remarks",
+      "match": "Match Rules",
+      "matchPlaceholder": "example.com\n*.example.com",
+      "action": "Action",
+      "actionPlaceholder": "Please select action",
+      "dns": "DNS Server",
+      "dnsPlaceholder": "Please enter DNS server",
+      "proxy": "Outbound Tag",
+      "proxyPlaceholder": "Please enter outbound tag",
+      "cancel": "Cancel",
+      "submit": "Submit",
+      "validation": {
+        "remarks": "Please enter valid remarks"
+      }
+    },
+    "toolbar": {
+      "searchPlaceholder": "Search routes...",
+      "reset": "Reset"
+    },
+    "messages": {
+      "deleteConfirm": "Confirm Delete",
+      "deleteDescription": "This action will permanently delete this route group and cannot be recovered. Are you sure you want to continue?",
+      "deleteButton": "Delete",
+      "deleteSuccess": "Deleted Successfully",
+      "createSuccess": "Created Successfully",
+      "updateSuccess": "Updated Successfully"
     }
   },
   "coupon": {
@@ -1646,1074 +2644,418 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
       "reset_traffic": "Reset Traffic"
     }
   },
-  "traffic": {
-    "trafficRecord": {
-      "title": "Traffic Usage Records",
-      "time": "Time",
-      "upload": "Upload",
-      "download": "Download",
-      "rate": "Rate",
-      "total": "Total",
-      "noRecords": "No records found",
-      "perPage": "Show per page",
-      "records": "records",
-      "page": "Page {{current}} / {{total}}",
-      "multiplier": "{{value}}x"
+  "plugin": {
+    "title": "Plugin Management",
+    "description": "Manage and configure system plugins",
+    "search": {
+      "placeholder": "Search plugin name or description..."
+    },
+    "type": {
+      "placeholder": "Select Plugin Type",
+      "all": "All Types"
+    },
+    "tabs": {
+      "all": "All Plugins",
+      "installed": "Installed",
+      "available": "Available"
+    },
+    "status": {
+      "enabled": "Enabled",
+      "disabled": "Disabled",
+      "not_installed": "Not Installed",
+      "protected": "Protected",
+      "filter_placeholder": "Install Status",
+      "all": "All Status",
+      "installed": "Installed",
+      "available": "Available"
+    },
+    "button": {
+      "install": "Install",
+      "upgrade": "Upgrade",
+      "config": "Configure",
+      "enable": "Enable",
+      "disable": "Disable",
+      "uninstall": "Uninstall",
+      "readme": "View Documentation",
+      "menuDemo": "Menu Demo"
+    },
+    "upload": {
+      "button": "Upload Plugin",
+      "title": "Upload Plugin",
+      "description": "Upload a plugin package (.zip)",
+      "dragText": "Drag and drop plugin package here, or",
+      "clickText": "browse",
+      "supportText": "Supports .zip files only",
+      "uploading": "Uploading...",
+      "error": {
+        "format": "Only .zip files are supported"
+      }
+    },
+    "delete": {
+      "title": "Delete Plugin",
+      "description": "Are you sure you want to delete this plugin? This action cannot be undone.",
+      "button": "Delete"
+    },
+    "uninstall": {
+      "title": "Uninstall Plugin",
+      "description": "Are you sure you want to uninstall this plugin? Plugin data will be cleared after uninstallation.",
+      "button": "Uninstall"
+    },
+    "upgrade": {
+      "title": "Upgrade Plugin",
+      "description": "Are you sure you want to upgrade this plugin? The plugin will be temporarily unavailable during the upgrade process.",
+      "button": "Upgrade"
+    },
+    "config": {
+      "title": "Configuration",
+      "description": "Modify plugin configuration",
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "readme": {
+      "title": "Plugin Documentation"
+    },
+    "author": "Author",
+    "messages": {
+      "installSuccess": "Plugin installed successfully",
+      "installError": "Failed to install plugin",
+      "upgradeSuccess": "Plugin upgraded successfully",
+      "upgradeError": "Failed to upgrade plugin",
+      "uninstallSuccess": "Plugin uninstalled successfully",
+      "uninstallError": "Failed to uninstall plugin",
+      "enableSuccess": "Plugin enabled successfully",
+      "enableError": "Failed to enable plugin",
+      "disableSuccess": "Plugin disabled successfully",
+      "disableError": "Failed to disable plugin",
+      "configLoadError": "Failed to load plugin configuration",
+      "configSaveSuccess": "Configuration saved successfully",
+      "configSaveError": "Failed to save configuration",
+      "uploadSuccess": "Plugin uploaded successfully",
+      "uploadError": "Failed to upload plugin",
+      "deleteSuccess": "Plugin deleted successfully",
+      "deleteError": "Failed to delete plugin"
     }
   },
-  "route": {
-    "title": "Route Management",
-    "description": "Manage all route groups, including adding, deleting, and editing operations.",
-    "columns": {
-      "id": "Group ID",
-      "remarks": "Remarks",
-      "action": "Action",
-      "actions": "Actions",
-      "matchRules": "Match {{count}} rules",
-      "action_value": {
-        "title": "Action Value",
-        "dns": "DNS: {{value}}",
-        "proxy": "Proxy ({{value}})",
-        "block": "Block Access",
-        "direct": "Direct Connection"
+  "search": {
+    "placeholder": "Search menus and functions...",
+    "title": "Menu Navigation",
+    "noResults": "No results found",
+    "shortcut": {
+      "label": "Search",
+      "key": "⌘K"
+    }
+  },
+  "order": {
+    "title": "Order Management",
+    "description": "Here you can view user orders, including assignment, viewing, deletion and other operations.",
+    "table": {
+      "columns": {
+        "tradeNo": "Order No.",
+        "type": "Type",
+        "plan": "Subscription Plan",
+        "period": "Period",
+        "amount": "Payment Amount",
+        "status": "Order Status",
+        "commission": "Commission Amount",
+        "commissionStatus": "Commission Status",
+        "createdAt": "Created At"
       }
+    },
+    "type": {
+      "NEW": "New Purchase",
+      "RENEWAL": "Renewal",
+      "UPGRADE": "Upgrade",
+      "RESET_FLOW": "Reset Traffic"
+    },
+    "period": {
+      "month_price": "Monthly",
+      "quarter_price": "Quarterly",
+      "half_year_price": "Semi-annually",
+      "year_price": "Annually",
+      "two_year_price": "2 Years",
+      "three_year_price": "3 Years",
+      "onetime_price": "One-time",
+      "reset_price": "Reset Package"
+    },
+    "status": {
+      "PENDING": "Pending",
+      "PROCESSING": "Processing",
+      "CANCELLED": "Cancelled",
+      "COMPLETED": "Completed",
+      "DISCOUNTED": "Discounted",
+      "tooltip": "After marking as [Paid], the system will proceed with activation and completion"
+    },
+    "commission": {
+      "PENDING": "Pending",
+      "PROCESSING": "Processing",
+      "VALID": "Valid",
+      "INVALID": "Invalid"
     },
     "actions": {
-      "dns": "Resolve using specified DNS server",
-      "block": "Block access",
-      "direct": "Direct connection",
-      "proxy": "Proxy"
-    },
-    "form": {
-      "add": "Add Route",
-      "edit": "Edit Route",
-      "create": "Create Route",
-      "remarks": "Remarks",
-      "remarksPlaceholder": "Please enter remarks",
-      "match": "Match Rules",
-      "matchPlaceholder": "example.com\n*.example.com",
-      "action": "Action",
-      "actionPlaceholder": "Please select action",
-      "dns": "DNS Server",
-      "dnsPlaceholder": "Please enter DNS server",
-      "proxy": "Outbound Tag",
-      "proxyPlaceholder": "Please enter outbound tag",
-      "cancel": "Cancel",
-      "submit": "Submit",
-      "validation": {
-        "remarks": "Please enter valid remarks"
-      }
-    },
-    "toolbar": {
-      "searchPlaceholder": "Search routes...",
+      "markAsPaid": "Mark as Paid",
+      "cancel": "Cancel Order",
+      "openMenu": "Open Menu",
       "reset": "Reset"
     },
-    "messages": {
-      "deleteConfirm": "Confirm Delete",
-      "deleteDescription": "This action will permanently delete this route group and cannot be recovered. Are you sure you want to continue?",
-      "deleteButton": "Delete",
-      "deleteSuccess": "Deleted Successfully",
-      "createSuccess": "Created Successfully",
-      "updateSuccess": "Updated Successfully"
+    "search": {
+      "placeholder": "Search orders..."
+    },
+    "dialog": {
+      "title": "Order Information",
+      "basicInfo": "Basic Information",
+      "amountInfo": "Amount Information",
+      "timeInfo": "Time Information",
+      "commissionInfo": "Commission Information",
+      "commissionStatusActive": "Active",
+      "addOrder": "Add Order",
+      "assignOrder": "Assign Order",
+      "fields": {
+        "userEmail": "User Email",
+        "orderPeriod": "Order Period",
+        "subscriptionPlan": "Subscription Plan",
+        "callbackNo": "Callback No.",
+        "paymentAmount": "Payment Amount",
+        "balancePayment": "Balance Payment",
+        "discountAmount": "Discount Amount",
+        "refundAmount": "Refund Amount",
+        "deductionAmount": "Deduction Amount",
+        "createdAt": "Created At",
+        "updatedAt": "Updated At",
+        "commissionStatus": "Commission Status",
+        "commissionAmount": "Commission Amount",
+        "actualCommissionAmount": "Actual Commission",
+        "inviteUser": "Inviter",
+        "inviteUserId": "Inviter ID"
+      },
+      "placeholders": {
+        "email": "Please enter user email",
+        "plan": "Please select subscription plan",
+        "period": "Please select subscription period",
+        "amount": "Please enter payment amount"
+      },
+      "actions": {
+        "cancel": "Cancel",
+        "confirm": "Confirm"
+      },
+      "messages": {
+        "addSuccess": "Added successfully"
+      }
     }
   },
-  "settings": {
-    "title": "System Settings",
-    "description": "Manage core system configurations, including site, security, subscription, invite commission, nodes, email, and notifications",
-    "server": {
-      "title": "Server Configuration",
-      "description": "Configure node communication and synchronization settings, including communication keys, polling intervals, load balancing and other advanced options.",
-      "server_token": {
-        "title": "Communication Token",
-        "placeholder": "Enter communication token",
-        "description": "Used for authentication between servers",
-        "generate_tooltip": "Click to generate random token"
-      },
-      "server_pull_interval": {
-        "title": "Node Pull Action Polling Interval",
-        "description": "The frequency at which nodes retrieve data from the panel.",
-        "placeholder": "Enter pull interval"
-      },
-      "server_push_interval": {
-        "title": "Node Push Action Polling Interval",
-        "description": "The frequency at which nodes push data to the panel.",
-        "placeholder": "Enter push interval"
-      },
-      "device_limit_mode": {
-        "title": "Device Limit Mode",
-        "description": "In relaxed mode, using multiple nodes from the same IP address counts as one device.",
-        "strict": "Strict Mode",
-        "relaxed": "Relaxed Mode",
-        "placeholder": "Select device limit mode"
-      },
-      "server_ws_enable": {
-        "title": "Enable WebSocket Communication",
-        "description": "When enabled, nodes will communicate with the panel via WebSocket for lower latency and more timely pushes.",
-        "supported_clients": "Node clients that currently support WebSocket communication: Xboard Node"
-      },
-      "server_ws_url": {
-        "title": "WebSocket URL",
-        "description": "The WebSocket address nodes use to connect to the panel. Leave empty to use the site URL.",
-        "placeholder": "Leave empty to use site URL"
-      },
-      "saving": "Saving..."
+  "dashboard": {
+    "title": "Dashboard",
+    "stats": {
+      "newUsers": "New Users",
+      "totalScore": "Total Score",
+      "monthlyUpload": "Monthly Upload",
+      "vsLastMonth": "vs Last Month",
+      "vsYesterday": "vs Yesterday",
+      "todayIncome": "Today's Income",
+      "monthlyIncome": "Monthly Income",
+      "totalIncome": "Total Income",
+      "totalUsers": "Total Users",
+      "activeUsers": "Active Users: {{count}}",
+      "totalOrders": "Total Orders",
+      "revenue": "Revenue",
+      "todayRegistered": "Today Registered",
+      "monthlyRegistered": "Monthly Registered",
+      "onlineUsers": "Online Users",
+      "pendingTickets": "Pending Tickets",
+      "hasPendingTickets": "There are tickets that need attention",
+      "noPendingTickets": "No pending tickets",
+      "pendingCommission": "Pending Commission",
+      "hasPendingCommission": "There are commissions that need confirmation",
+      "noPendingCommission": "No pending commission",
+      "monthlyNewUsers": "Monthly New Users",
+      "monthlyDownload": "Monthly Download",
+      "todayTraffic": "Today: {{value}}",
+      "activeUserTrend": "Active User Trend",
+      "realtimeUsers": "Realtime Users",
+      "todayPeak": "Today's Peak",
+      "vsLastWeek": "vs Last Week"
     },
-    "invite": {
-      "title": "Invitation & Commission Settings",
-      "description": "Configure invitation registration and commission related settings.",
-      "invite_force": {
-        "title": "Enable Forced Invitation",
-        "description": "When enabled, only invited users can register."
-      },
-      "invite_commission": {
-        "title": "Invitation Commission Percentage",
-        "description": "Default global commission distribution ratio, you can configure individual ratios in user management.",
-        "placeholder": "Enter commission percentage"
-      },
-      "invite_gen_limit": {
-        "title": "Invitation Code Generation Limit",
-        "description": "Maximum number of invitation codes a user can create",
-        "placeholder": "Enter generation limit"
-      },
-      "invite_never_expire": {
-        "title": "Never Expire Invitation Code",
-        "description": "When enabled, invitation codes will not expire after use, otherwise they will expire after being used."
-      },
-      "commission_first_time": {
-        "title": "First-time Commission Only",
-        "description": "When enabled, commission will only be generated on the first payment of the invitee, can be configured individually in user management."
-      },
-      "commission_auto_check": {
-        "title": "Automatic Commission Confirmation",
-        "description": "When enabled, commission will be automatically confirmed 3 days after order completion."
-      },
-      "commission_withdraw_limit": {
-        "title": "Withdrawal Threshold (Yuan)",
-        "description": "Withdrawal requests below this threshold will not be submitted.",
-        "placeholder": "Enter withdrawal threshold"
-      },
-      "commission_withdraw_method": {
-        "title": "Withdrawal Methods",
-        "description": "Supported withdrawal methods, separate multiple methods with commas.",
-        "placeholder": "Enter withdrawal methods, separate with commas"
-      },
-      "withdraw_close": {
-        "title": "Disable Withdrawals",
-        "description": "When enabled, users will be prohibited from requesting withdrawals, and invitation commissions will go directly to user balance."
-      },
-      "commission_distribution": {
-        "title": "Three-level Distribution",
-        "description": "When enabled, commission will be split according to the three set ratios, total should not exceed 100%.",
-        "l1": "Level 1 Inviter Ratio",
-        "l2": "Level 2 Inviter Ratio",
-        "l3": "Level 3 Inviter Ratio",
-        "placeholder": "Enter ratio e.g. 50"
-      },
-      "saving": "Saving..."
+    "trafficRank": {
+      "nodeTrafficRank": "Node Traffic Rank",
+      "userTrafficRank": "User Traffic Rank",
+      "today": "Today",
+      "last7days": "Last 7 Days",
+      "last30days": "Last 30 Days",
+      "customRange": "Custom Range",
+      "selectTimeRange": "Select Time Range",
+      "selectDateRange": "Select Date Range",
+      "currentTraffic": "Current Traffic",
+      "previousTraffic": "Previous Traffic",
+      "changeRate": "Change Rate",
+      "recordTime": "Record Time"
     },
-    "site": {
-      "title": "Site Settings",
-      "description": "Configure basic site information, including site name, description, currency unit, and other core settings.",
-      "form": {
-        "siteName": {
-          "label": "Site Name",
-          "placeholder": "Please enter site name",
-          "description": "Used where site name needs to be displayed."
-        },
-        "siteDescription": {
-          "label": "Site Description",
-          "placeholder": "Please enter site description",
-          "description": "Used where site description needs to be displayed."
-        },
-        "siteUrl": {
-          "label": "Site URL",
-          "placeholder": "Please enter site URL, without trailing /",
-          "description": "Current website URL, will be used in emails and other places where URL is needed."
-        },
-        "forceHttps": {
-          "label": "Force HTTPS",
-          "description": "Need to enable when the site is not using HTTPS but CDN or reverse proxy has forced HTTPS."
-        },
-        "logo": {
-          "label": "LOGO",
-          "placeholder": "Please enter LOGO URL, without trailing /",
-          "description": "Used where LOGO needs to be displayed."
-        },
-        "subscribeUrl": {
-          "label": "Subscribe URL",
-          "placeholder": "Used for subscription, multiple URLs separated by ','. Leave empty to use site URL.",
-          "description": "Used for subscription, leave empty to use site URL."
-        },
-        "tosUrl": {
-          "label": "Terms of Service (TOS) URL",
-          "placeholder": "Please enter TOS URL, without trailing /",
-          "description": "Used to link to Terms of Service (TOS)"
-        },
-        "stopRegister": {
-          "label": "Stop New User Registration",
-          "description": "When enabled, no one will be able to register."
-        },
-        "ticketMustWaitReply": {
-          "label": "Reply Wait Restriction",
-          "description": "When enabled, users cannot continue sending messages in the same ticket until an administrator replies."
-        },
-        "tryOut": {
-          "label": "Registration Trial",
-          "placeholder": "Disabled",
-          "description": "Select the subscription for trial, if no options please add in subscription management first.",
-          "duration": {
-            "label": "Trial Duration",
-            "placeholder": "0",
-            "description": "Trial duration in hours."
-          }
-        },
-        "currency": {
-          "label": "Currency Unit",
-          "placeholder": "CNY",
-          "description": "For display only, changing this will affect all currency units in the system."
-        },
-        "currencySymbol": {
-          "label": "Currency Symbol",
-          "placeholder": "¥",
-          "description": "For display only, changing this will affect all currency symbols in the system."
-        }
-      }
+    "overview": {
+      "title": "Revenue Overview",
+      "thisMonth": "This Month",
+      "lastMonth": "Last Month",
+      "to": "to",
+      "selectTimeRange": "Select Range",
+      "selectDate": "Select Date",
+      "last7Days": "Last 7 Days",
+      "last30Days": "Last 30 Days",
+      "last90Days": "Last 90 Days",
+      "last180Days": "Last 180 Days",
+      "lastYear": "Last Year",
+      "customRange": "Custom Range",
+      "amount": "Amount",
+      "count": "Count",
+      "transactions": "{{count}} transactions",
+      "orderAmount": "Order Amount",
+      "commissionAmount": "Commission Amount",
+      "orderCount": "Order Count",
+      "commissionCount": "Commission Count",
+      "totalIncome": "Total Income",
+      "totalCommission": "Total Commission",
+      "totalTransactions": "Total: {{count}} transactions",
+      "avgOrderAmount": "Average Order Amount:",
+      "commissionRate": "Commission Rate:"
     },
-    "safe": {
-      "title": "Security Settings",
-      "description": "Configure system security options, including login verification, password policies, and API access settings.",
-      "form": {
-        "emailVerify": {
-          "label": "Email Verification",
-          "description": "When enabled, users will be required to verify their email."
-        },
-        "gmailLimit": {
-          "label": "Disable Gmail Aliases",
-          "description": "When enabled, Gmail aliases will not be allowed to register."
-        },
-        "safeMode": {
-          "label": "Safe Mode",
-          "description": "When enabled, accessing the site through domains other than the site URL will be blocked with 403."
-        },
-        "securePath": {
-          "label": "Admin Path",
-          "placeholder": "admin",
-          "description": "Admin management path, changing this will modify the original admin path"
-        },
-        "emailWhitelist": {
-          "label": "Email Suffix Whitelist",
-          "description": "When enabled, only email suffixes in the list will be allowed to register.",
-          "suffixes": {
-            "label": "Email Suffixes",
-            "placeholder": "Enter email suffixes, one per line",
-            "description": "Enter the allowed email suffixes, one per line"
-          }
-        },
-        "captcha": {
-          "enable": {
-            "label": "Enable Captcha",
-            "description": "When enabled, users will need to pass captcha verification when registering."
-          },
-          "type": {
-            "label": "Captcha Type",
-            "description": "Select the captcha service type to use",
-            "options": {
-              "recaptcha": "Google reCAPTCHA v2",
-              "recaptcha-v3": "Google reCAPTCHA v3",
-              "turnstile": "Cloudflare Turnstile"
-            }
-          },
-          "recaptcha": {
-            "key": {
-              "label": "reCAPTCHA Key",
-              "placeholder": "Enter reCAPTCHA key",
-              "description": "Enter your reCAPTCHA key"
-            },
-            "siteKey": {
-              "label": "reCAPTCHA Site Key",
-              "placeholder": "Enter reCAPTCHA site key",
-              "description": "Enter your reCAPTCHA site key"
-            }
-          },
-          "recaptcha_v3": {
-            "secretKey": {
-              "label": "reCAPTCHA v3 Key",
-              "placeholder": "Enter reCAPTCHA v3 key",
-              "description": "Enter your reCAPTCHA v3 server key"
-            },
-            "siteKey": {
-              "label": "reCAPTCHA v3 Site Key",
-              "placeholder": "Enter reCAPTCHA v3 site key",
-              "description": "Enter your reCAPTCHA v3 site key"
-            },
-            "scoreThreshold": {
-              "label": "Score Threshold",
-              "placeholder": "0.5",
-              "description": "Set verification score threshold (0-1), higher scores indicate more likely human behavior"
-            }
-          },
-          "turnstile": {
-            "secretKey": {
-              "label": "Turnstile Key",
-              "placeholder": "Enter Turnstile key",
-              "description": "Enter your Cloudflare Turnstile key"
-            },
-            "siteKey": {
-              "label": "Turnstile Site Key",
-              "placeholder": "Enter Turnstile site key",
-              "description": "Enter your Cloudflare Turnstile site key"
-            }
-          }
-        },
-        "registerLimit": {
-          "enable": {
-            "label": "IP Registration Limit",
-            "description": "When enabled, the number of registrations from the same IP will be limited."
-          },
-          "count": {
-            "label": "Registration Count",
-            "placeholder": "Enter maximum registration count",
-            "description": "Maximum number of registrations allowed from the same IP"
-          },
-          "expire": {
-            "label": "Limit Duration",
-            "placeholder": "Enter limit duration in minutes",
-            "description": "Duration of the registration limit in minutes"
-          }
-        },
-        "passwordLimit": {
-          "enable": {
-            "label": "Password Attempt Limit",
-            "description": "When enabled, the number of password attempts will be limited."
-          },
-          "count": {
-            "label": "Attempt Count",
-            "placeholder": "Enter maximum attempt count",
-            "description": "Maximum number of password attempts allowed"
-          },
-          "expire": {
-            "label": "Lock Duration",
-            "placeholder": "Enter lock duration in minutes",
-            "description": "Duration of the account lock in minutes"
-          }
-        }
-      }
+    "traffic": {
+      "title": "Traffic Ranking",
+      "rank": "Rank",
+      "domain": "Domain",
+      "todayTraffic": "Today's Traffic",
+      "monthlyTraffic": "Monthly Traffic"
     },
-    "subscribe": {
-      "title": "Subscription Settings",
-      "description": "Manage subscription-related configurations, including subscription link format, update frequency, traffic statistics, and other settings.",
-      "plan_change_enable": {
-        "title": "Allow Subscription Changes",
-        "description": "When enabled, users will be able to change their subscription plans."
+    "queue": {
+      "title": "Queue Status",
+      "jobDetails": "Job Details",
+      "status": {
+        "description": "Current queue running status",
+        "running": "Running Status",
+        "normal": "Normal",
+        "abnormal": "Abnormal",
+        "waitTime": "Current wait time: {{seconds}} seconds",
+        "pending": "Pending",
+        "processing": "Processing",
+        "completed": "Completed",
+        "failed": "Failed",
+        "cancelled": "Cancelled"
       },
-      "reset_traffic_method": {
-        "title": "Monthly Traffic Reset Method",
-        "description": "Global traffic reset method, defaults to the 1st of each month. Can be set individually for subscriptions in subscription management.",
-        "options": {
-          "monthly_first": "1st of Each Month",
-          "monthly_reset": "Monthly Reset",
-          "no_reset": "No Reset",
-          "yearly_first": "January 1st",
-          "yearly_reset": "Yearly Reset"
-        }
+      "details": {
+        "description": "Queue processing details",
+        "recentJobs": "Recent Jobs",
+        "statisticsPeriod": "Statistics Period: {{hours}} hours",
+        "jobsPerMinute": "Jobs Per Minute",
+        "maxThroughput": "Max Throughput: {{value}}",
+        "failedJobs7Days": "Failed Jobs (7 days)",
+        "retentionPeriod": "Retention Period: {{hours}} hours",
+        "longestRunningQueue": "Longest Running Queue",
+        "activeProcesses": "Active Processes",
+        "id": "Job ID",
+        "type": "Job Type",
+        "status": "Status",
+        "progress": "Progress",
+        "createdAt": "Created At",
+        "updatedAt": "Updated At",
+        "error": "Error Message",
+        "data": "Job Data",
+        "result": "Result",
+        "duration": "Duration",
+        "attempts": "Attempts",
+        "nextRetry": "Next Retry",
+        "failedJobsDetailTitle": "Failed Jobs Details",
+        "viewFailedJobs": "View Failed Jobs",
+        "jobDetailTitle": "Job Details",
+        "time": "Time",
+        "queue": "Queue",
+        "name": "Job Name",
+        "exception": "Exception",
+        "noFailedJobs": "No failed jobs",
+        "connection": "Connection",
+        "payload": "Job Payload",
+        "viewDetail": "View Details",
+        "action": "Action"
       },
-      "surplus_enable": {
-        "title": "Enable Deduction Plan",
-        "description": "When enabled, the system will deduct from the original subscription when users change subscriptions, refer to documentation for details."
+      "actions": {
+        "retry": "Retry",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "viewDetails": "View Details"
       },
-      "new_order_event": {
-        "title": "Trigger Event on New Subscription",
-        "description": "This task will be triggered when a new subscription is completed.",
-        "options": {
-          "no_action": "No Action",
-          "reset_traffic": "Reset User Traffic"
-        }
-      },
-      "renew_order_event": {
-        "title": "Trigger Event on Subscription Renewal",
-        "description": "This task will be triggered when a subscription renewal is completed.",
-        "options": {
-          "no_action": "No Action",
-          "reset_traffic": "Reset User Traffic"
-        }
-      },
-      "change_order_event": {
-        "title": "Trigger Event on Subscription Change",
-        "description": "This task will be triggered when a subscription change is completed.",
-        "options": {
-          "no_action": "No Action",
-          "reset_traffic": "Reset User Traffic"
-        }
-      },
-      "subscribe_path": {
-        "title": "Subscription Path",
-        "description": "Subscription path, modifying will change the original subscribe path",
-        "current_format": "Current subscription path format: {path}/xxxxxxxxxx",
-        "restart_tip": "You may need to restart the service for the new subscribe path to take effect."
-      },
-      "show_info_to_server": {
-        "title": "Show Subscription Info in Nodes",
-        "description": "When enabled, subscription information will be output when users subscribe to nodes."
-      },
-      "show_protocol_to_server": {
-        "title": "Show Protocol in Node Names",
-        "description": "When enabled, subscription lines will include protocol names (e.g., [Hy2]Hong Kong)"
-      },
-      "saving": "Saving...",
-      "plan": {
-        "title": "Subscription Plans",
-        "add": "Add Plan",
-        "search": "Search plans...",
-        "sort": {
-          "edit": "Edit Sort",
-          "save": "Save Sort"
-        },
-        "columns": {
-          "id": "ID",
-          "show": "Show",
-          "sell": "Sell",
-          "renew": "Renew",
-          "renew_tooltip": "Whether existing users can renew when the subscription stops selling",
-          "name": "Name",
-          "stats": "Statistics",
-          "group": "Permission Group",
-          "price": "Price",
-          "actions": "Actions",
-          "edit": "Edit",
-          "delete": "Delete",
-          "delete_confirm": {
-            "title": "Confirm Delete",
-            "description": "This action will permanently delete this subscription and cannot be undone. Are you sure you want to continue?",
-            "success": "Successfully deleted"
-          },
-          "price_period": {
-            "monthly": "Monthly",
-            "quarterly": "Quarterly",
-            "half_yearly": "Half Yearly",
-            "yearly": "Yearly",
-            "two_yearly": "Two Years",
-            "three_yearly": "Three Years",
-            "onetime": "One Time",
-            "reset_traffic": "Reset Traffic",
-            "unit": {
-              "month": "/month",
-              "quarter": "/quarter",
-              "half_year": "/half year",
-              "year": "/year",
-              "two_year": "/2 years",
-              "three_year": "/3 years",
-              "times": "/time"
-            }
-          }
-        },
-        "form": {
-          "add_title": "Add Plan",
-          "edit_title": "Edit Plan",
-          "name": {
-            "label": "Plan Name",
-            "placeholder": "Enter plan name"
-          },
-          "group": {
-            "label": "Permission Group",
-            "placeholder": "Select permission group",
-            "add": "Add Group"
-          },
-          "transfer": {
-            "label": "Traffic",
-            "placeholder": "Enter traffic size",
-            "unit": "GB"
-          },
-          "speed": {
-            "label": "Speed Limit",
-            "placeholder": "Enter speed limit",
-            "unit": "Mbps"
-          },
-          "price": {
-            "title": "Price Settings",
-            "base_price": "Base monthly price",
-            "clear": {
-              "button": "Clear Prices",
-              "tooltip": "Clear all period price settings"
-            }
-          },
-          "device": {
-            "label": "Device Limit",
-            "placeholder": "Leave empty for no limit",
-            "unit": "devices"
-          },
-          "capacity": {
-            "label": "Capacity Limit",
-            "placeholder": "Leave empty for no limit",
-            "unit": "users"
-          },
-          "reset_method": {
-            "label": "Traffic Reset Method",
-            "placeholder": "Select traffic reset method",
-            "description": "Set how subscription traffic is reset, different methods affect how user traffic is calculated",
-            "options": {
-              "follow_system": "Follow System Settings",
-              "monthly_first": "1st of Each Month",
-              "monthly_reset": "Monthly Reset",
-              "no_reset": "No Reset",
-              "yearly_first": "January 1st",
-              "yearly_reset": "Yearly Reset"
-            }
-          },
-          "content": {
-            "label": "Plan Description",
-            "placeholder": "Write plan description here...",
-            "description": "Supports Markdown format, you can use headings, lists, bold, italic and other styles to beautify the content",
-            "preview": "Preview",
-            "preview_button": {
-              "show": "Show Preview",
-              "hide": "Hide Preview"
-            },
-            "template": {
-              "button": "Use Template",
-              "tooltip": "Click to use preset plan description template",
-              "content": "## Plan Features\n• High-speed and stable global network access\n• Support multiple devices online simultaneously\n• Unlimited traffic reset\n\n## Usage Instructions\n1. Supported devices: iOS, Android, Windows, macOS\n2. 24/7 technical support\n3. Automatic periodic traffic reset\n\n## Notes\n- No abuse allowed\n- Comply with local laws and regulations\n- Support plan changes anytime"
-            }
-          },
-          "force_update": {
-            "label": "Force Update to Users"
-          },
-          "submit": {
-            "submitting": "Submitting...",
-            "submit": "Submit",
-            "cancel": "Cancel",
-            "success": {
-              "add": "Plan added successfully",
-              "update": "Plan updated successfully"
-            }
-          }
-        },
-        "page": {
-          "description": "Here you can configure subscription plans, including adding, deleting, and editing operations."
-        }
-      }
-    },
-    "email": {
-      "title": "Email Settings",
-      "description": "Configure system email service for sending verification codes, password resets, and notifications, supporting various SMTP providers.",
-      "tab_settings": "Settings",
-      "tab_templates": "Templates",
-      "email_host": {
-        "title": "SMTP Host",
-        "description": "SMTP server address, e.g., smtp.gmail.com"
-      },
-      "email_port": {
-        "title": "SMTP Port",
-        "description": "SMTP server port, common ports: 25, 465, 587"
-      },
-      "email_username": {
-        "title": "SMTP Username",
-        "description": "SMTP authentication username"
-      },
-      "email_password": {
-        "title": "SMTP Password",
-        "description": "SMTP authentication password or application-specific password"
-      },
-      "email_encryption": {
-        "title": "Encryption Method",
-        "description": "Email encryption method",
-        "none": "None",
-        "ssl": "SSL/TLS",
-        "tls": "STARTTLS"
-      },
-      "email_from": {
-        "title": "From Address",
-        "description": "Sender's email address"
-      },
-      "email_from_name": {
-        "title": "From Name",
-        "description": "Sender's display name"
-      },
-      "email_template": {
-        "title": "Email Template",
-        "description": "You can check the documentation for how to customize email templates",
-        "placeholder": "Select email template"
-      },
-      "remind_mail": {
-        "title": "Email Reminders",
-        "description": "When enabled, users will receive email notifications when their subscription is about to expire or when traffic is running low."
-      },
-      "test": {
-        "title": "Send Test Email",
-        "sending": "Sending...",
-        "description": "Send a test email to verify the configuration",
-        "success": "Test email sent successfully",
-        "error": "Failed to send test email"
-      }
-    },
-    "telegram": {
-      "title": "Telegram Settings",
-      "description": "Configure Telegram bot functionality for user notifications, account binding, and command interactions.",
-      "bot_token": {
-        "title": "Bot Token",
-        "description": "Please enter the token provided by Botfather.",
-        "placeholder": "0000000000:xxxxxxxxx_xxxxxxxxxxxxxxx"
-      },
-      "webhook_url": {
-        "title": "Webhook Base URL",
-        "description": "Only provide the base URL here. The system will append the full Telegram webhook callback path automatically. Leave blank to use the site URL.",
-        "docs": "View Telegram Webhook Docs",
-        "placeholder": "https://example.com"
-      },
-      "webhook": {
-        "title": "Set Webhook",
-        "description": "Set up webhook for the bot. Without setting it, you won't receive Telegram notifications.",
-        "button": "One-Click Setup",
-        "setting": "Setting Webhook...",
-        "success": "Webhook set successfully",
-        "target_default": "The site URL will be used as the Webhook Base URL.",
-        "target_custom": "The custom Webhook Base URL currently in use is: {{url}}",
-        "debug": {
-          "title": "Webhook Debug Info",
-          "success": "Success",
-          "url": "Webhook URL",
-          "baseUrl": "Base URL"
-        }
-      },
-      "bot_enable": {
-        "title": "Enable Telegram Binding Guide",
-        "description": "When enabled, a Telegram binding guide will be displayed on the user side to help users bind their Telegram accounts for notifications."
-      },
-      "discuss_link": {
-        "title": "Group Link",
-        "description": "Once filled in, it will be displayed on the user side or used where needed.",
-        "placeholder": "https://t.me/xxxxxx"
-      }
-    },
-    "app": {
-      "title": "APP Settings",
-      "description": "Manage mobile application configurations, including API interfaces, version control, and push notifications.",
-      "common": {
-        "placeholder": "Please input"
-      },
-      "windows": {
-        "version": {
-          "title": "Windows Version",
-          "description": "Current version number of Windows client"
-        },
-        "download": {
-          "title": "Windows Download URL",
-          "description": "Download link for Windows client"
-        }
-      },
-      "macos": {
-        "version": {
-          "title": "macOS Version",
-          "description": "Current version number of macOS client"
-        },
-        "download": {
-          "title": "macOS Download URL",
-          "description": "Download link for macOS client"
-        }
-      },
-      "android": {
-        "version": {
-          "title": "Android Version",
-          "description": "Current version number of Android client"
-        },
-        "download": {
-          "title": "Android Download URL",
-          "description": "Download link for Android client"
-        }
-      }
+      "empty": "No jobs in queue",
+      "loading": "Loading queue status...",
+      "error": "Failed to load queue status"
     },
     "common": {
-      "saving": "Saving...",
-      "save_success": "Saved automatically",
-      "placeholder": "Please input",
-      "autoSaved": "Saved automatically"
+      "refresh": "Refresh",
+      "close": "Close",
+      "pagination": "Page {{current}}/{{total}}, {{count}} items total"
     },
-    "subscribe_template": {
-      "title": "Subscribe Templates",
-      "description": "Configure subscription templates for different clients",
-      "singbox": {
-        "title": "Sing-box Template",
-        "description": "Configure subscription template format for Sing-box"
-      },
-      "clash": {
-        "title": "Clash Template",
-        "description": "Configure subscription template format for Clash"
-      },
-      "clashmeta": {
-        "title": "Clash Meta Template",
-        "description": "Configure subscription template format for Clash Meta"
-      },
-      "stash": {
-        "title": "Stash Template",
-        "description": "Configure subscription template format for Stash"
-      },
-      "surge": {
-        "title": "Surge Template",
-        "description": "Configure subscription template format for Surge"
-      },
-      "surfboard": {
-        "title": "Surfboard Template",
-        "description": "Configure subscription template format for Surfboard"
-      }
-    },
-    "email_template": {
-      "title": "Email Templates",
-      "description": "Customize the content of system email templates",
-      "customized": "Customized",
-      "subject": "Subject",
-      "subject_placeholder": "Enter email subject, supports {{name}} placeholders",
-      "content": "Template Content (HTML)",
-      "preview": "Live Preview",
-      "override_hint": "Saving will override the default system template. Click \"Reset to Default\" to restore the theme's default template at any time.",
-      "placeholders": "Available Placeholders",
-      "var_name": "Variable",
-      "var_desc": "Description",
-      "var_sample": "Sample Value",
-      "required": "Required",
-      "insert": "Insert",
-      "placeholder_hint": "* marks required placeholders. Click to insert at the end of the content.",
-      "click_to_insert": "Click to insert",
-      "save": "Save",
-      "save_success": "Template saved successfully",
-      "save_before_test": "Please save changes before sending a test email",
-      "send_test": "Send Test",
-      "test_dialog_title": "Send Test Email",
-      "test_dialog_description": "Enter recipient email address. Leave empty to send to your admin email.",
-      "test_email_placeholder": "Recipient email (leave empty for current account)",
-      "sending": "Sending...",
-      "test_success": "Test email sent successfully",
-      "reset": "Reset to Default",
-      "reset_title": "Reset Template",
-      "reset_description": "Are you sure you want to reset this template to default? Your customizations will be deleted.",
-      "reset_confirm": "Confirm Reset",
-      "reset_success": "Template reset to default",
-      "unsaved": "Unsaved changes",
-      "discard_title": "Unsaved Changes",
-      "discard_description": "This template has unsaved changes. Switching tabs will discard them.",
-      "discard_confirm": "Discard",
-      "cancel": "Cancel"
+    "search": {
+      "placeholder": "Search menus and functions...",
+      "title": "Menu Navigation",
+      "noResults": "No results found",
+      "loading": "Searching..."
     }
   },
-  "sidebar": {
+  "nav": {
     "dashboard": "Dashboard",
     "systemManagement": "System Management",
     "systemConfig": "System Configuration",
     "themeConfig": "Theme Configuration",
     "noticeManagement": "Notice Management",
+    "pluginManagement": "Plugin Management",
     "paymentConfig": "Payment Configuration",
-    "knowledgeManagement": "Knowledge Base",
+    "knowledgeManagement": "Knowledge Management",
     "nodeManagement": "Node Management",
-    "permissionGroupManagement": "Permission Groups",
+    "machineManagement": "Server Management",
+    "permissionGroupManagement": "Permission Group",
     "routeManagement": "Route Management",
-    "subscriptionManagement": "Subscription Management",
+    "subscriptionManagement": "Subscription",
     "planManagement": "Plan Management",
     "orderManagement": "Order Management",
     "couponManagement": "Coupon Management",
+    "giftCardManagement": "Gift Card Management",
     "userManagement": "User Management",
-    "ticketManagement": "Ticket Management"
+    "trafficResetLogs": "Traffic Reset Logs",
+    "ticketManagement": "Ticket Management",
+    "pluginApps": "Plugin Apps"
   },
-  "ticket": {
-    "title": "Ticket Management",
-    "description": "View and manage user tickets, including viewing, replying, and closing operations.",
-    "columns": {
-      "id": "Ticket ID",
-      "subject": "Subject",
-      "level": "Priority",
-      "status": "Status",
-      "updated_at": "Last Updated",
-      "created_at": "Created At",
-      "actions": "Actions"
-    },
-    "status": {
-      "closed": "Closed",
-      "replied": "Replied",
-      "pending": "Pending",
-      "processing": "Processing"
-    },
-    "level": {
-      "low": "Low Priority",
-      "medium": "Medium Priority",
-      "high": "High Priority"
-    },
-    "filter": {
-      "placeholder": "Search {field}...",
-      "no_results": "No results found",
-      "selected": "{count} selected",
-      "clear": "Clear filters"
-    },
-    "actions": {
-      "view_details": "View Details",
-      "close_ticket": "Close Ticket",
-      "close_confirm_title": "Confirm Close Ticket",
-      "close_confirm_description": "Are you sure you want to close this ticket? It will move to the closed list, but you can still reply later.",
-      "close_confirm_button": "Confirm Close",
-      "close_success": "Ticket closed successfully",
-      "view_ticket": "View Ticket"
-    },
-    "detail": {
-      "no_messages": "No messages yet",
-      "created_at": "Created at",
-      "sender_admin": "Admin",
-      "sender_user": "User",
-      "user_info": "User Info",
-      "traffic_records": "Traffic Records",
-      "order_records": "Order Records",
-      "input": {
-        "closed_reply_placeholder": "This ticket is closed, but you can still reply...",
-        "closed_hint": "This ticket is closed. You can keep replying and new messages will still be appended here.",
-        "reply_placeholder": "Type your reply...",
-        "sending": "Sending...",
-        "send": "Send"
+  "theme": {
+    "title": "Theme Configuration",
+    "description": "Theme configuration, including theme colors, font sizes, etc. If you deploy V2board in a front-end and back-end separated way, theme configuration will not take effect.",
+    "upload": {
+      "button": "Upload Theme",
+      "title": "Upload Theme",
+      "description": "Please upload a valid theme package (.zip format). The theme package should contain a complete theme file structure.",
+      "dragText": "Drag and drop theme file here, or",
+      "clickText": "click to select",
+      "supportText": "Supports .zip format theme packages",
+      "uploading": "Uploading...",
+      "error": {
+        "format": "Only ZIP format theme files are supported"
       }
     },
-    "list": {
-      "title": "Ticket List",
-      "search_placeholder": "Search ticket subject or user email",
-      "no_tickets": "No tickets",
-      "no_open_tickets": "No open tickets",
-      "no_closed_tickets": "No closed tickets",
-      "no_search_results": "No matching tickets found",
-      "collapse": "Collapse list",
-      "expand": "Expand list"
-    }
-  },
-  "payment": {
-    "title": "Payment Configuration",
-    "description": "Configure payment methods including Alipay, WeChat Pay, etc.",
-    "table": {
-      "columns": {
-        "id": "ID",
-        "enable": "Enable",
-        "name": "Display Name",
-        "payment": "Payment Gateway",
-        "notify_url": "Notify URL",
-        "notify_url_tooltip": "The payment gateway will send notifications to this address. Please ensure it's accessible through your firewall.",
-        "actions": "Actions"
-      },
-      "actions": {
-        "edit": "Edit",
-        "delete": {
-          "title": "Confirm Delete",
-          "description": "Are you sure you want to delete this payment method? This action cannot be undone.",
-          "success": "Successfully deleted"
-        }
-      },
-      "toolbar": {
-        "search": "Search payment methods...",
-        "reset": "Reset",
-        "sort": {
-          "hint": "Drag payment methods to sort, click save when finished",
-          "save": "Save Order",
-          "edit": "Edit Order"
+    "preview": {
+      "title": "Theme Preview",
+      "imageCount": "{{current}} / {{total}}"
+    },
+    "card": {
+      "version": "Version: {{version}}",
+      "currentTheme": "Current Theme",
+      "activateTheme": "Activate Theme",
+      "configureTheme": "Theme Settings",
+      "preview": "Preview",
+      "delete": {
+        "title": "Delete Theme",
+        "description": "Are you sure you want to delete this theme? This action cannot be undone.",
+        "button": "Delete",
+        "error": {
+          "active": "Cannot delete the currently active theme"
         }
       }
     },
-    "form": {
-      "add": {
-        "button": "Add Payment Method",
-        "title": "Add Payment Method"
-      },
-      "edit": {
-        "title": "Edit Payment Method"
-      },
-      "fields": {
-        "name": {
-          "label": "Display Name",
-          "placeholder": "Enter payment name",
-          "description": "Used for frontend display"
-        },
-        "icon": {
-          "label": "Icon URL",
-          "placeholder": "https://example.com/icon.svg",
-          "description": "Icon URL for frontend display"
-        },
-        "notify_domain": {
-          "label": "Notify Domain",
-          "placeholder": "https://example.com",
-          "description": "Domain for gateway notifications"
-        },
-        "handling_fee_percent": {
-          "label": "Percentage Fee (%)",
-          "placeholder": "0-100"
-        },
-        "handling_fee_fixed": {
-          "label": "Fixed Fee",
-          "placeholder": "0"
-        },
-        "payment": {
-          "label": "Payment Gateway",
-          "placeholder": "Select payment gateway",
-          "description": "Choose the payment gateway to use"
-        }
-      },
-      "validation": {
-        "name": {
-          "min": "Name must be at least 2 characters",
-          "max": "Name cannot exceed 30 characters"
-        },
-        "notify_domain": {
-          "url": "Please enter a valid URL"
-        },
-        "payment": {
-          "required": "Please select a payment gateway"
-        }
-      },
-      "buttons": {
-        "cancel": "Cancel",
-        "submit": "Submit"
-      },
-      "sections": {
-        "payment_config": "Payment Configuration"
-      },
-      "messages": {
-        "success": "Saved successfully"
-      }
-    }
-  },
-  "subscribe": {
-    "plan": {
-      "title": "Subscription Plans",
-      "add": "Add Plan",
-      "search": "Search plans...",
-      "sort": {
-        "edit": "Edit Sort",
-        "save": "Save Sort"
-      },
-      "columns": {
-        "id": "ID",
-        "show": "Show",
-        "sell": "Sell",
-        "renew": "Renew",
-        "renew_tooltip": "Whether existing users can renew when the subscription stops selling",
-        "name": "Name",
-        "stats": "Statistics",
-        "group": "Permission Group",
-        "price": "Price",
-        "actions": "Actions",
-        "edit": "Edit",
-        "delete": "Delete",
-        "delete_confirm": {
-          "title": "Confirm Delete",
-          "description": "This action will permanently delete this subscription and cannot be undone. Are you sure you want to continue?",
-          "success": "Successfully deleted"
-        },
-        "price_period": {
-          "monthly": "Monthly",
-          "quarterly": "Quarterly",
-          "half_yearly": "Half Yearly",
-          "yearly": "Yearly",
-          "two_yearly": "Two Years",
-          "three_yearly": "Three Years",
-          "onetime": "One Time",
-          "reset_traffic": "Reset Traffic",
-          "no_price": "No Price",
-          "unit": {
-            "month": "/month",
-            "quarter": "/quarter",
-            "half_year": "/half year",
-            "year": "/year",
-            "two_year": "/2 years",
-            "three_year": "/3 years",
-            "times": "/time"
-          }
-        }
-      },
-      "form": {
-        "add_title": "Add Plan",
-        "edit_title": "Edit Plan",
-        "name": {
-          "label": "Plan Name",
-          "placeholder": "Enter plan name"
-        },
-        "group": {
-          "label": "Server Group",
-          "add": "Add Group",
-          "placeholder": "Select server group"
-        },
-        "transfer": {
-          "label": "Traffic",
-          "placeholder": "Enter traffic limit",
-          "unit": "GB"
-        },
-        "speed": {
-          "label": "Speed Limit",
-          "placeholder": "Enter speed limit",
-          "unit": "Mbps"
-        },
-        "price": {
-          "title": "Price Settings",
-          "base_price": "Base Price",
-          "clear": {
-            "button": "Clear",
-            "tooltip": "Clear all prices"
-          },
-          "period": {
-            "monthly": "Monthly",
-            "months": "{{count}} Months"
-          },
-          "onetime_desc": "One-time traffic package, no time limit",
-          "reset_desc": "Reset traffic package, can be used multiple times"
-        },
-        "device": {
-          "label": "Device Limit",
-          "placeholder": "Enter device limit",
-          "unit": "Devices"
-        },
-        "capacity": {
-          "label": "Capacity Limit",
-          "placeholder": "Enter capacity limit",
-          "unit": "Users"
-        },
-        "tags": {
-          "label": "Tags",
-          "placeholder": "Enter a tag and press Enter to confirm"
-        },
-        "reset_method": {
-          "label": "Traffic Reset Method",
-          "placeholder": "Select reset method",
-          "description": "Traffic reset method will determine how the traffic is reset",
-          "options": {
-            "follow_system": "Follow System Settings",
-            "monthly_first": "Monthly First Day",
-            "monthly_reset": "Monthly Purchase Day",
-            "no_reset": "No Reset",
-            "yearly_first": "Yearly First Day",
-            "yearly_reset": "Yearly Purchase Day"
-          }
-        },
-        "content": {
-          "label": "Plan Description",
-          "placeholder": "Enter plan description",
-          "description": "Support Markdown format",
-          "preview": "Preview",
-          "preview_button": {
-            "show": "Show Preview",
-            "hide": "Hide Preview"
-          },
-          "template": {
-            "button": "Use Template",
-            "tooltip": "Use default template",
-            "content": "## Plan Details\n\n- Data: {{transfer}} GB\n- Speed Limit: {{speed}} Mbps\n- Concurrent Devices: {{devices}}\n\n## Service Information\n\n1. Data {{reset_method}}\n2. Multi-platform Support\n3. 24/7 Technical Support"
-          }
-        },
-        "force_update": {
-          "label": "Force Update User Plans"
-        },
-        "submit": {
-          "cancel": "Cancel",
-          "submit": "Submit",
-          "submitting": "Submitting...",
-          "success": {
-            "add": "Plan added successfully",
-            "update": "Plan updated successfully"
-          },
-          "error": {
-            "validation": "Form validation failed. Please check for errors and try again."
-          }
-        }
-      },
-      "page": {
-        "description": "Here you can configure subscription plans, including adding, deleting, and editing operations."
-      }
+    "config": {
+      "title": "Configure {{name}} Theme",
+      "description": "Modify theme styles, layouts, and other display options.",
+      "cancel": "Cancel",
+      "save": "Save",
+      "success": "Settings saved successfully"
     }
   },
   "user": {
@@ -2857,6 +3199,9 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
       "title": "User Management",
       "form": {
         "email": "Email",
+        "phone_country": "Country/Region",
+        "phone": "Phone Number",
+        "phone_placeholder": "Please enter phone number",
         "email_placeholder": "Please enter email",
         "inviter_email": "Inviter Email",
         "inviter_email_placeholder": "Please enter email",
@@ -3068,6 +3413,7 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
       "fields": {
         "userId": "User ID",
         "email": "Email",
+        "phone": "Phone Number",
         "uuid": "UUID",
         "token": "Token",
         "remarks": "Remarks",
@@ -3104,348 +3450,6 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
       "banned": "Banned",
       "admin": "Admin",
       "staff": "Staff"
-    }
-  },
-  "giftCard": {
-    "title": "Gift Card Management",
-    "description": "Manage gift card templates, redemption codes, and usage records.",
-    "tabs": {
-      "templates": "Template Management",
-      "codes": "Redemption Code Management",
-      "usages": "Usage Records",
-      "statistics": "Statistics"
-    },
-    "template": {
-      "title": "Template Management",
-      "description": "Manage gift card templates, including creating, editing, and deleting templates.",
-      "table": {
-        "title": "Template List",
-        "columns": {
-          "id": "ID",
-          "name": "Name",
-          "type": "Type",
-          "status": "Status",
-          "sort": "Sort",
-          "rewards": "Rewards",
-          "created_at": "Created At",
-          "actions": "Actions",
-          "no_rewards": "No Rewards"
-        }
-      },
-      "form": {
-        "add": "Add Template",
-        "edit": "Edit Template",
-        "name": {
-          "label": "Template Name",
-          "placeholder": "Please enter template name",
-          "required": "Please enter template name"
-        },
-        "sort": {
-          "label": "Sort",
-          "placeholder": "Smaller numbers appear first"
-        },
-        "type": {
-          "label": "Type",
-          "placeholder": "Please select gift card type"
-        },
-        "description": {
-          "label": "Description",
-          "placeholder": "Please enter gift card description"
-        },
-        "status": {
-          "label": "Status",
-          "description": "When disabled, this template cannot generate or redeem new gift cards."
-        },
-        "display": {
-          "title": "Display Effect"
-        },
-        "theme_color": {
-          "label": "Theme Color"
-        },
-        "icon": {
-          "label": "Icon",
-          "placeholder": "Please enter icon URL"
-        },
-        "background_image": {
-          "label": "Background Image",
-          "placeholder": "Please enter background image URL"
-        },
-        "conditions": {
-          "title": "Usage Conditions",
-          "new_user_max_days": {
-            "label": "New User Registration Days Limit",
-            "placeholder": "Example: 7 (Only for users registered within 7 days)"
-          },
-          "new_user_only": {
-            "label": "New Users Only"
-          },
-          "paid_user_only": {
-            "label": "Paid Users Only"
-          },
-          "require_invite": {
-            "label": "Require Invitation Relationship"
-          },
-          "allowed_plans": {
-            "label": "Allowed Plans",
-            "placeholder": "Select plans allowed for redemption (leave empty for no restriction)"
-          },
-          "disallowed_plans": {
-            "label": "Disallowed Plans",
-            "placeholder": "Select plans forbidden for redemption (leave empty for no restriction)"
-          }
-        },
-        "limits": {
-          "title": "Usage Limits",
-          "max_use_per_user": {
-            "label": "Max Uses Per User",
-            "placeholder": "Leave empty for no limit"
-          },
-          "cooldown_hours": {
-            "label": "Cooldown Hours for Same Type",
-            "placeholder": "Leave empty for no limit"
-          },
-          "invite_reward_rate": {
-            "label": "Inviter Reward Rate",
-            "placeholder": "Example: 0.2 (represents 20%)",
-            "description": "When user has an inviter, inviter reward = balance reward × this rate"
-          }
-        },
-        "rewards": {
-          "title": "Rewards",
-          "balance": {
-            "label": "Reward Balance (Yuan)",
-            "short_label": "Balance",
-            "placeholder": "Please enter reward amount (Yuan)"
-          },
-          "transfer_enable": {
-            "label": "Reward Traffic (GB)",
-            "short_label": "Traffic",
-            "placeholder": "Please enter reward traffic (GB)"
-          },
-          "expire_days": {
-            "label": "Extend Validity (Days)",
-            "short_label": "Validity",
-            "placeholder": "Please enter extension days"
-          },
-          "transfer": {
-            "label": "Reward Traffic (Bytes)",
-            "placeholder": "Please enter reward traffic (bytes)"
-          },
-          "days": {
-            "label": "Extend Validity (Days)",
-            "placeholder": "Please enter extension days"
-          },
-          "device_limit": {
-            "label": "Increase Device Count",
-            "short_label": "Devices",
-            "placeholder": "Please enter increased device count"
-          },
-          "reset_package": {
-            "label": "Reset Monthly Traffic",
-            "description": "When enabled, redemption will clear the user's current plan's used traffic."
-          },
-          "reset_count": {
-            "description": "This type of card will reset the user's monthly traffic usage."
-          },
-          "task_card": {
-            "description": "Specific rewards for task gift cards will be configured in the task system."
-          },
-          "plan_id": {
-            "label": "Specified Plan",
-            "short_label": "Plan",
-            "placeholder": "Please select a plan"
-          },
-          "plan_validity_days": {
-            "label": "Plan Validity (Days)",
-            "short_label": "Plan Validity",
-            "placeholder": "Leave empty to use plan default validity"
-          },
-          "random_rewards": {
-            "label": "Random Reward Pool",
-            "add": "Add Random Reward Item",
-            "weight": "Weight"
-          }
-        },
-        "special_config": {
-          "title": "Special Configuration",
-          "start_time": {
-            "label": "Event Start Time",
-            "placeholder": "Please select start date"
-          },
-          "end_time": {
-            "label": "Event End Time",
-            "placeholder": "Please select end date"
-          },
-          "festival_bonus": {
-            "label": "Festival Reward Multiplier",
-            "placeholder": "Example: 1.5 (represents 1.5x)"
-          }
-        },
-        "submit": {
-          "saving": "Saving...",
-          "save": "Save"
-        }
-      },
-      "actions": {
-        "edit": "Edit",
-        "delete": "Delete",
-        "deleteConfirm": {
-          "title": "Confirm Delete",
-          "description": "This action will permanently delete this template. Are you sure you want to continue?",
-          "confirmText": "Delete"
-        }
-      }
-    },
-    "code": {
-      "title": "Redemption Code Management",
-      "form": {
-        "generate": "Generate Redemption Codes",
-        "template_id": {
-          "label": "Select Template",
-          "placeholder": "Please select a template to generate redemption codes"
-        },
-        "count": {
-          "label": "Generation Count"
-        },
-        "prefix": {
-          "label": "Custom Prefix (Optional)"
-        },
-        "expires_hours": {
-          "label": "Validity (Hours)"
-        },
-        "max_usage": {
-          "label": "Max Usage Count"
-        },
-        "download_csv": "Export CSV",
-        "submit": {
-          "generating": "Generating...",
-          "generate": "Generate Now"
-        }
-      },
-      "description": "Manage gift card redemption codes, including generation, viewing, and exporting codes.",
-      "generate": {
-        "title": "Generate Redemption Codes",
-        "template": "Select Template",
-        "count": "Generation Count",
-        "prefix": "Custom Prefix",
-        "expires_hours": "Validity (Hours)",
-        "max_usage": "Max Usage Count",
-        "submit": "Generate"
-      },
-      "table": {
-        "title": "Redemption Code List",
-        "columns": {
-          "id": "ID",
-          "code": "Redemption Code",
-          "template_name": "Template Name",
-          "status": "Status",
-          "expires_at": "Expires At",
-          "usage_count": "Used Count",
-          "max_usage": "Available Count",
-          "created_at": "Created At"
-        }
-      },
-      "actions": {
-        "enable": "Enable",
-        "disable": "Disable",
-        "export": "Export",
-        "exportConfirm": {
-          "title": "Confirm Export",
-          "description": "This will export all redemption codes from the selected batch as a text file. Are you sure you want to continue?",
-          "confirmText": "Export"
-        }
-      },
-      "status": {
-        "0": "Unused",
-        "1": "Used",
-        "2": "Disabled",
-        "3": "Expired"
-      }
-    },
-    "usage": {
-      "title": "Usage Records",
-      "description": "View gift card usage records and detailed information.",
-      "table": {
-        "columns": {
-          "id": "ID",
-          "code": "Redemption Code",
-          "template_name": "Template Name",
-          "user_email": "User Email",
-          "rewards_given": "Rewards Given",
-          "invite_rewards": "Invitation Rewards",
-          "multiplier_applied": "Multiplier Applied",
-          "ip_address": "IP Address",
-          "created_at": "Usage Time",
-          "actions": "Actions"
-        }
-      },
-      "actions": {
-        "view": "View Details"
-      }
-    },
-    "statistics": {
-      "title": "Statistics",
-      "description": "View gift card statistics and usage analysis.",
-      "total": {
-        "title": "Overall Statistics",
-        "templates_count": "Total Templates",
-        "active_templates_count": "Active Templates",
-        "codes_count": "Total Redemption Codes",
-        "used_codes_count": "Used Redemption Codes",
-        "usages_count": "Usage Records"
-      },
-      "daily": {
-        "title": "Daily Usage",
-        "chart": "Usage Trend Chart"
-      },
-      "type": {
-        "title": "Type Statistics",
-        "chart": "Type Distribution Chart"
-      },
-      "dateRange": {
-        "label": "Date Range",
-        "start": "Start Date",
-        "end": "End Date"
-      }
-    },
-    "types": {
-      "1": "General Gift Card",
-      "2": "Plan Gift Card",
-      "3": "Mystery Gift Card",
-      "4": "Task Gift Card"
-    },
-    "common": {
-      "search": "Search gift cards...",
-      "reset": "Reset",
-      "filter": "Filter",
-      "export": "Export",
-      "refresh": "Refresh",
-      "back": "Back",
-      "close": "Close",
-      "confirm": "Confirm",
-      "cancel": "Cancel",
-      "enabled": "Enabled",
-      "disabled": "Disabled",
-      "loading": "Loading...",
-      "noData": "No Data",
-      "success": "Operation Successful",
-      "error": "Operation Failed"
-    },
-    "messages": {
-      "formInvalid": "Please check if the form input is correct",
-      "templateCreated": "Template created successfully",
-      "templateUpdated": "Template updated successfully",
-      "templateDeleted": "Template deleted successfully",
-      "codeGenerated": "Redemption codes generated successfully",
-      "generateCodeFailed": "Failed to generate redemption codes",
-      "codeStatusUpdated": "Redemption code status updated successfully",
-      "updateCodeStatusFailed": "Failed to update redemption code status",
-      "codesExported": "Redemption codes exported successfully",
-      "createTemplateFailed": "Failed to create template",
-      "updateTemplateFailed": "Failed to update template",
-      "deleteTemplateFailed": "Failed to delete template",
-      "loadDataFailed": "Failed to load data",
-      "codesGenerated": "Redemption codes generated successfully"
     }
   },
   "knowledge": {
