@@ -788,6 +788,7 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
           "success": "Successfully deleted"
         },
         "price_period": {
+          "weekly": "Weekly",
           "monthly": "Monthly",
           "quarterly": "Quarterly",
           "half_yearly": "Half Yearly",
@@ -1277,6 +1278,7 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
             "success": "Successfully deleted"
           },
           "price_period": {
+          "weekly": "Weekly",
             "monthly": "Monthly",
             "quarterly": "Quarterly",
             "half_yearly": "Half Yearly",

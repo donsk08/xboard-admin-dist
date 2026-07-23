@@ -730,6 +730,7 @@ window.XBOARD_TRANSLATIONS['ru-RU'] = {
           "success": "Тариф успешно удален"
         },
         "price_period": {
+          "weekly": "Еженедельно",
           "monthly": "Ежемесячно",
           "quarterly": "Ежеквартально",
           "half_yearly": "Раз в полгода",
@@ -1219,6 +1220,7 @@ window.XBOARD_TRANSLATIONS['ru-RU'] = {
             "success": "Удалено"
           },
           "price_period": {
+          "weekly": "Еженедельно",
             "monthly": "Месяц",
             "quarterly": "Квартал",
             "half_yearly": "Полгода",
