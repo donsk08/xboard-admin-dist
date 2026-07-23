@@ -3299,6 +3299,7 @@ window.XBOARD_TRANSLATIONS['ru-RU'] = {
       "RESET_FLOW": "Сброс трафика"
     },
     "period": {
+      "week_price": "Еженедельно",
       "month_price": "Ежемесячно",
       "quarter_price": "Ежеквартально",
       "half_year_price": "Раз в полгода",

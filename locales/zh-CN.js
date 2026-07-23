@@ -3399,6 +3399,7 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
       "RESET_FLOW": "流量重置"
     },
     "period": {
+      "week_price": "周付",
       "month_price": "月付",
       "quarter_price": "季付",
       "half_year_price": "半年付",

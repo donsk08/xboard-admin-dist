@@ -3384,6 +3384,7 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
       "RESET_FLOW": "Reset Traffic"
     },
     "period": {
+      "week_price": "Weekly",
       "month_price": "Monthly",
       "quarter_price": "Quarterly",
       "half_year_price": "Semi-annually",
