@@ -789,6 +789,7 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
           "success": "删除成功"
         },
         "price_period": {
+          "weekly": "周付",
           "monthly": "月付",
           "quarterly": "季付",
           "half_yearly": "半年付",
@@ -1187,7 +1188,8 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
             "success": "删除成功"
           },
           "price_period": {
-            "monthly": "月付",
+            "weekly": "周付",
+          "monthly": "月付",
             "quarterly": "季付",
             "half_yearly": "半年付",
             "yearly": "年付",
