@@ -799,6 +799,7 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
           "reset_traffic": "Reset Traffic",
           "no_price": "No Price",
           "unit": {
+            "week": "/week",
             "month": "/month",
             "quarter": "/quarter",
             "half_year": "/half year",
@@ -1288,6 +1289,7 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
             "onetime": "One Time",
             "reset_traffic": "Reset Traffic",
             "unit": {
+            "week": "/week",
               "month": "/month",
               "quarter": "/quarter",
               "half_year": "/half year",

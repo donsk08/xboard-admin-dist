@@ -800,6 +800,7 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
           "reset_traffic": "重置包",
           "no_price": "无价格",
           "unit": {
+            "week": "元/周",
             "month": "元/月",
             "quarter": "元/季",
             "half_year": "元/半年",
@@ -1198,6 +1199,7 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
             "onetime": "流量包",
             "reset_traffic": "重置包",
             "unit": {
+            "week": "元/周",
               "month": "元/月",
               "quarter": "元/季",
               "half_year": "元/半年",

@@ -741,6 +741,7 @@ window.XBOARD_TRANSLATIONS['ru-RU'] = {
           "reset_traffic": "Сброс трафика",
           "no_price": "Нет цены",
           "unit": {
+            "week": "/нед.",
             "month": "/мес",
             "quarter": "/квартал",
             "half_year": "/полгода",
@@ -1230,6 +1231,7 @@ window.XBOARD_TRANSLATIONS['ru-RU'] = {
             "onetime": "Единоразово",
             "reset_traffic": "Сброс трафика",
             "unit": {
+            "week": "/нед.",
               "month": "/мес",
               "quarter": "/кв",
               "half_year": "/п-года",
