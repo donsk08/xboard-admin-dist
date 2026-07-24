@@ -2600,6 +2600,7 @@ window.XBOARD_TRANSLATIONS['ru-RU'] = {
       }
     },
     "period": {
+      "weekly": "Еженедельно",
       "monthly": "Ежемесячно",
       "quarterly": "Ежеквартально",
       "half_yearly": "Раз в полгода",

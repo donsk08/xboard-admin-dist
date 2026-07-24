@@ -2714,6 +2714,7 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
       }
     },
     "period": {
+      "weekly": "周",
       "monthly": "月",
       "quarterly": "季度",
       "half_yearly": "半年",

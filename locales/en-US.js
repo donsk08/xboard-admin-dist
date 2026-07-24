@@ -2685,6 +2685,7 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
       }
     },
     "period": {
+      "weekly": "Weekly",
       "monthly": "Monthly",
       "quarterly": "Quarterly",
       "half_yearly": "Half Yearly",
